@@ -554,6 +554,7 @@ const PRODUCTS = [
           <span>📥 ${esc(p.format||"Instant download")}</span>
           <span>♾️ Yours to keep</span>
         </div>
+        <p class="legal-note">Instant download: by buying, you agree to immediate access and understand you lose your 14-day right to cancel once the download starts. See our <a href="terms.html">Terms of Sale</a> and <a href="refunds.html">Refund Policy</a>.</p>
       </div>
       ${coverHTML(p)}
     </div></header>
@@ -591,7 +592,7 @@ const PRODUCTS = [
       <span class="price">${money(p.price)}</span>
       ${STORE.vatNote ? `<p class="vat" style="margin:-14px 0 20px">${esc(STORE.vatNote)}</p>` : ""}
       <a class="btn btn-buy" ${buyAttrs(p)}>Get instant access →</a>
-      <p class="legal-note" style="margin:16px auto 0">Because this is digital content delivered immediately, by buying you agree to instant access and acknowledge you lose the 14-day cancellation right once the download starts.</p>
+      <p class="legal-note" style="margin:16px auto 0">Instant download: by buying, you agree to immediate access and understand you lose your 14-day right to cancel once the download starts. See our <a href="terms.html">Terms of Sale</a> and <a href="refunds.html">Refund Policy</a>.</p>
     </div></div></section>
 
     ${others.length ? `<section style="padding-top:0"><div class="wrap">
