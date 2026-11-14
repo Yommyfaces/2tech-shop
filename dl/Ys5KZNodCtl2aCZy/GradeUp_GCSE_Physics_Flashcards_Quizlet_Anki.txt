@@ -1,0 +1,207 @@
+Energy: Name the 8 energy stores.	Kinetic, gravitational potential, elastic potential, thermal (internal), chemical, magnetic, electrostatic and nuclear.
+Energy: What are the 4 ways energy can be transferred?	Mechanically (a force doing work), electrically, by heating, and by radiation (e.g. light or sound waves).
+Energy: State the principle of conservation of energy.	Energy can be transferred usefully, stored or dissipated, but it can never be created or destroyed.
+Energy: What does it mean when energy is 'dissipated'?	It is transferred to less useful stores, usually by heating the surroundings. It is often called 'wasted' energy.
+Energy: Equation for kinetic energy (with units).	Ek = ½ m v² | Ek in J, m in kg, v in m/s
+Energy: Equation for gravitational potential energy (with units).	Ep = m g h | Ep in J, m in kg, g in N/kg, h in m
+Energy: Equation for elastic potential energy (with units).	Ee = ½ k e² | k = spring constant in N/m, e = extension in m. Only valid up to the limit of proportionality.
+Energy: A 2 kg ball moves at 3 m/s. What is its kinetic energy?	Ek = ½ × 2 × 3² = 9 J
+Energy: A 5 kg box is lifted 2 m. How much GPE does it gain? (g = 9.8 N/kg)	Ep = 5 × 9.8 × 2 = 98 J
+Energy: Define specific heat capacity.	The energy needed to raise the temperature of 1 kg of a substance by 1 °C.
+Energy: Equation for change in thermal energy (with units).	ΔE = m c Δθ | ΔE in J, m in kg, c in J/kg °C, Δθ in °C
+Energy: Define power.	The rate at which energy is transferred, or the rate at which work is done. 1 watt = 1 joule per second.
+Energy: Two equations for power.	P = E ÷ t and P = W ÷ t | P in W, E and W in J, t in s
+Energy: Equation for work done (with units).	W = F s | W in J, F in N, s = distance moved along the line of the force, in m. 1 J = 1 N m.
+Energy: Two equations for efficiency.	Efficiency = useful output energy ÷ total input energy | Efficiency = useful power output ÷ total power input | Multiply by 100 for a percentage.
+Energy: A motor takes in 200 J and gives out 150 J usefully. What is its efficiency?	150 ÷ 200 = 0.75 = 75%
+Energy: Two ways to reduce unwanted energy transfers in a machine.	Lubrication to reduce friction, and thermal insulation to reduce heat loss.
+Energy: What does a high thermal conductivity mean?	Energy is transferred through the material quickly by conduction.
+Energy: How does wall thickness and material affect how fast a house loses heat?	Thicker walls and materials with lower thermal conductivity reduce the rate of cooling.
+Energy: Name the non-renewable energy resources.	Fossil fuels (coal, oil, gas) and nuclear fuel (e.g. uranium). They will run out.
+Energy: Name 7 renewable energy resources.	Bio-fuel, wind, hydroelectricity, geothermal, tides, solar and water waves. They can be replenished as they are used.
+Energy: Pros and cons of fossil fuels.	Pros: reliable, can meet demand quickly, relatively cheap. Cons: release CO₂ (climate change), sulfur dioxide (acid rain), and will run out.
+Energy: Why are wind and solar power unreliable?	They depend on the weather and time of day, so they can't always meet demand.
+Energy: Which renewable resources are reliable?	Hydroelectricity, geothermal, tidal and bio-fuels.
+Electricity: Define electric current.	The rate of flow of electrical charge. Current is measured in amps (A).
+Electricity: Equation linking charge, current and time.	Q = I t | Q in coulombs (C), I in A, t in s
+Electricity: Equation linking potential difference, current and resistance.	V = I R | V in volts (V), I in A, R in ohms (Ω)
+Electricity: A resistor has 12 V across it and 3 A through it. What is its resistance?	R = V ÷ I = 12 ÷ 3 = 4 Ω
+Electricity: Current and potential difference in a series circuit?	Current is the same everywhere. The total pd from the supply is shared between the components.
+Electricity: Total resistance of resistors in series?	Add them up: Rtotal = R1 + R2
+Electricity: Current and potential difference in a parallel circuit?	The pd is the same across each branch. The total current is the sum of the currents in each branch.
+Electricity: What happens to total resistance when you add resistors in parallel?	It decreases. The total is always less than the smallest individual resistor.
+Electricity: Describe the I–V graph for a fixed resistor (at constant temperature).	A straight line through the origin. Current is directly proportional to pd, so resistance is constant (ohmic conductor).
+Electricity: Describe the I–V graph for a filament lamp and explain it.	A curve (S-shape). As current increases, the filament heats up, so its resistance increases.
+Electricity: How does a diode behave?	Current flows through it in one direction only. It has a very high resistance in the reverse direction.
+Electricity: How does a thermistor's resistance change? Give a use.	Resistance decreases as temperature increases. Used in thermostats and fire alarms.
+Electricity: How does an LDR's resistance change? Give a use.	Resistance decreases as light intensity increases. Used in automatic night lights and street lights.
+Electricity: Difference between direct and alternating current.	Direct current (dc) flows in one direction only. Alternating current (ac) keeps changing direction.
+Electricity: UK mains supply: type, voltage and frequency.	Alternating current, about 230 V, 50 Hz.
+Electricity: Name the 3 wires in a plug: colour and job.	Live (brown): 230 V, carries the current in. Neutral (blue): about 0 V, completes the circuit. Earth (green & yellow): 0 V, safety wire.
+Electricity: Why can touching the live wire be dangerous, even if the switch is off?	The live wire is still at 230 V. Your body is at 0 V, so a large current could flow through you to earth.
+Electricity: Two equations for electrical power.	P = V I and P = I² R | P in W, V in V, I in A, R in Ω
+Electricity: Two equations for energy transferred electrically.	E = P t and E = Q V | E in J, P in W, t in s, Q in C, V in V
+Electricity: A kettle runs on 230 V and draws 10 A. What is its power?	P = V I = 230 × 10 = 2300 W (2.3 kW)
+Electricity: What is the National Grid?	A system of cables and transformers linking power stations to homes and businesses.
+Electricity: Why does the National Grid use step-up transformers?	They increase the pd and decrease the current in the cables. Lower current means less energy lost by heating, so it's more efficient.
+Electricity: Why are step-down transformers used near homes?	To reduce the pd to a safe level (about 230 V) for use in homes.
+Electricity: How does an insulator become charged by rubbing?	Electrons are transferred from one material to the other. The one that gains electrons becomes negative; the one that loses them becomes positive.
+Electricity: What happens when two charged objects are brought close?	Like charges repel and unlike charges attract. This is a non-contact force.
+Electricity: What is an electric field? [Triple]	The region around a charged object where another charged object feels a force. It is strongest closest to the charge.
+Electricity: Why does sparking happen? [Triple]	A high pd between a charged object and an earthed conductor causes charge to jump across the gap.
+Particle Model: Equation for density (with units).	ρ = m ÷ V | ρ in kg/m³, m in kg, V in m³
+Particle Model: A 400 g block has a volume of 50 cm³. What is its density?	400 ÷ 50 = 8 g/cm³ = 8000 kg/m³
+Particle Model: Describe the particles in a solid, liquid and gas.	Solid: close, regular pattern, vibrate in place. Liquid: close, random, move past each other. Gas: far apart, random, move quickly.
+Particle Model: Why is a gas less dense than the same substance as a solid?	The particles in a gas are much further apart, so the same mass takes up a bigger volume.
+Particle Model: Name the changes of state.	Melting, freezing, boiling (evaporating), condensing and sublimating.
+Particle Model: Why is a change of state a physical change?	No new substance is made. Mass is conserved, and the material gets its original properties back if the change is reversed.
+Particle Model: Define internal energy.	The total kinetic energy and potential energy of all the particles in a system.
+Particle Model: What does heating a substance do to it?	Increases its internal energy. This either raises its temperature or changes its state.
+Particle Model: Define specific latent heat.	The energy needed to change the state of 1 kg of a substance with no change in temperature.
+Particle Model: Equation for energy needed to change state (with units).	E = m L | E in J, m in kg, L = specific latent heat in J/kg
+Particle Model: Latent heat of fusion vs latent heat of vaporisation?	Fusion: solid ↔ liquid. Vaporisation: liquid ↔ gas.
+Particle Model: Why is there a flat section on a heating curve?	The substance is changing state. Energy is breaking bonds between particles, so the temperature stays the same.
+Particle Model: What causes gas pressure?	Gas particles colliding with the walls of their container and exerting a force.
+Particle Model: Why does gas pressure rise when temperature rises (fixed volume)?	Particles move faster, so they hit the walls more often and harder. This increases the pressure.
+Particle Model: Relationship between pressure and volume of a gas (constant temperature). [Triple]	p V = constant | If volume halves, pressure doubles.
+Particle Model: Why does pumping up a bike tyre make the pump warm? [Higher] [Triple]	Work is done on the gas, which increases the internal energy of the particles, so the temperature rises.
+Atomic Structure: Roughly how big is an atom? How big is the nucleus?	Atom radius is about 1 × 10⁻¹⁰ m. The nucleus is less than 1/10 000 of the atom's radius.
+Atomic Structure: Describe the structure of an atom.	A tiny positive nucleus of protons and neutrons, with electrons orbiting in energy levels (shells).
+Atomic Structure: Relative charge and mass of a proton, neutron and electron.	Proton: +1, mass 1 | Neutron: 0, mass 1 | Electron: −1, mass very small
+Atomic Structure: What do the atomic number and mass number tell you?	Atomic number = number of protons. Mass number = protons + neutrons.
+Atomic Structure: What is an isotope?	Atoms of the same element with the same number of protons but a different number of neutrons.
+Atomic Structure: What is an ion?	An atom that has lost or gained electrons, so it is charged.
+Atomic Structure: What happens when an electron absorbs or emits EM radiation?	Absorbs: it moves to a higher energy level (further from the nucleus). Emits: it drops to a lower energy level.
+Atomic Structure: Describe the plum pudding model.	A ball of positive charge with negative electrons embedded in it.
+Atomic Structure: Alpha scattering: what happened and what did it show?	Most alpha particles went straight through (atom mostly empty space). Some deflected (nucleus is positive). A few bounced back (mass concentrated in a tiny nucleus).
+Atomic Structure: Put the atomic models in order.	Solid sphere (Dalton) → plum pudding (Thomson) → nuclear model (Rutherford) → energy levels (Bohr) → neutrons discovered (Chadwick).
+Atomic Structure: What is radioactive decay?	A random process where an unstable nucleus gives out radiation to become more stable.
+Atomic Structure: Define activity. What is its unit?	The rate at which a source of unstable nuclei decays. Measured in becquerels (Bq).
+Atomic Structure: What is count rate?	The number of decays recorded each second by a detector, such as a Geiger-Müller tube.
+Atomic Structure: Alpha radiation: what is it, range and what stops it?	2 protons + 2 neutrons (a helium nucleus). Travels a few cm in air. Stopped by paper. Strongly ionising.
+Atomic Structure: Beta radiation: what is it and what stops it?	A fast electron from the nucleus (a neutron turns into a proton). Stopped by a few mm of aluminium. Moderately ionising.
+Atomic Structure: Gamma radiation: what is it and what stops it?	An electromagnetic wave from the nucleus. Stopped by thick lead or concrete. Weakly ionising.
+Atomic Structure: How does alpha decay change the nucleus? Give an example.	Mass number −4, atomic number −2. | ²¹⁹₈₆Rn → ²¹⁵₈₄Po + ⁴₂He
+Atomic Structure: How does beta decay change the nucleus? Give an example.	Mass number stays the same, atomic number +1. | ¹⁴₆C → ¹⁴₇N + ⁰₋₁e
+Atomic Structure: How does gamma emission change the nucleus?	It doesn't change the mass number or atomic number. The nucleus just loses energy.
+Atomic Structure: Define half-life.	The time it takes for the number of unstable nuclei in a sample (or the count rate) to halve.
+Atomic Structure: A source has an activity of 800 Bq and a half-life of 2 hours. What is its activity after 6 hours?	6 h = 3 half-lives: 800 → 400 → 200 → 100 Bq
+Atomic Structure: A sample's activity falls from 400 Bq to 100 Bq. What is the net decline as a ratio of the initial value? [Higher]	It fell by 300 Bq, so the ratio is 300 ÷ 400 = 3/4. That's 2 half-lives.
+Atomic Structure: Irradiation vs contamination?	Irradiation: exposed to radiation from outside; the object does not become radioactive. Contamination: radioactive atoms get on or inside the object.
+Atomic Structure: Why must scientists publish findings on radiation effects?	So they can be checked by other scientists (peer review).
+Atomic Structure: Give 4 sources of background radiation. [Triple]	Rocks (e.g. radon gas), cosmic rays from space, fallout from nuclear weapons testing, and nuclear accidents. Dose is measured in sieverts (Sv).
+Atomic Structure: What is nuclear fission? [Triple]	A large unstable nucleus (e.g. uranium-235) absorbs a neutron and splits into two smaller nuclei, releasing 2–3 neutrons and energy.
+Atomic Structure: What is a chain reaction? How is it controlled? [Triple]	Neutrons from one fission cause more fissions. In a reactor, control rods absorb neutrons to control the rate.
+Atomic Structure: What is nuclear fusion? [Triple]	Two light nuclei join to form a heavier nucleus. Some mass is converted into energy. This powers stars.
+Atomic Structure: Two medical uses of radiation. [Triple]	Tracers to explore inside the body (gamma, short half-life), and radiotherapy to kill cancer cells.
+Forces & Motion: Scalar vs vector?	Scalar: magnitude only. Vector: magnitude and direction.
+Forces & Motion: Give 4 scalar and 4 vector quantities.	Scalars: distance, speed, mass, energy. Vectors: displacement, velocity, force, acceleration (also momentum).
+Forces & Motion: Contact vs non-contact forces: examples.	Contact: friction, air resistance, tension, normal contact force. Non-contact: gravity, magnetic, electrostatic.
+Forces & Motion: Equation for weight (with units).	W = m g | W in N, m in kg, g in N/kg (9.8 N/kg on Earth)
+Forces & Motion: Mass vs weight?	Mass is the amount of matter (kg) and is the same everywhere. Weight is the force of gravity on it (N) and depends on g.
+Forces & Motion: What is a resultant force?	The single force that has the same effect as all the original forces acting together.
+Forces & Motion: What happens when work is done against friction?	Energy is transferred to thermal stores, so the object and surroundings get warmer.
+Forces & Motion: State Hooke's law as an equation.	F = k e | F in N, k = spring constant in N/m, e = extension in m. Works up to the limit of proportionality.
+Forces & Motion: Elastic vs inelastic deformation?	Elastic: returns to its original shape when the forces are removed. Inelastic: it stays deformed.
+Forces & Motion: A spring (k = 50 N/m) is stretched by 0.2 m. What force is applied?	F = k e = 50 × 0.2 = 10 N
+Forces & Motion: Equation for the moment of a force. [Triple]	M = F d | M in N m, F in N, d = perpendicular distance from the pivot to the line of the force, in m
+Forces & Motion: State the principle of moments. [Triple]	When an object is balanced, the total clockwise moment equals the total anticlockwise moment about the pivot.
+Forces & Motion: Equation for pressure on a surface. [Triple]	p = F ÷ A | p in pascals (Pa), F in N, A in m²
+Forces & Motion: Equation for pressure in a liquid. [Higher] [Triple]	p = h ρ g | h = depth in m, ρ = density in kg/m³, g in N/kg. Pressure increases with depth.
+Forces & Motion: What causes upthrust? When does an object float? [Triple]	Pressure is greater on the bottom of a submerged object than the top. It floats if its weight equals the upthrust (it is less dense than the fluid).
+Forces & Motion: Equation for speed. Typical speeds for walking, running, cycling and sound?	v = s ÷ t | Walking about 1.5 m/s, running 3 m/s, cycling 6 m/s, sound in air 330 m/s
+Forces & Motion: Equation for acceleration (with units).	a = Δv ÷ t | a in m/s², Δv = change in velocity in m/s, t in s
+Forces & Motion: Equation for uniform acceleration linking v, u, a and s.	v² − u² = 2 a s | v = final velocity, u = initial velocity
+Forces & Motion: A car goes from rest to 20 m/s over 50 m. What is its acceleration?	20² − 0² = 2 × a × 50 → 400 = 100a → a = 4 m/s²
+Forces & Motion: What does the gradient of a distance–time graph show?	The speed. A curved line means the speed is changing.
+Forces & Motion: Velocity–time graph: what do the gradient and the area show?	Gradient = acceleration. Area under the graph = distance travelled.
+Forces & Motion: What is the acceleration of a freely falling object near Earth?	About 9.8 m/s².
+Forces & Motion: Explain terminal velocity for a falling object.	Weight stays the same, but air resistance increases with speed. When they are equal, the resultant force is zero, so it falls at a constant (terminal) velocity.
+Forces & Motion: State Newton's first law.	If the resultant force is zero, a stationary object stays still and a moving object carries on at the same speed in the same direction.
+Forces & Motion: State Newton's second law as an equation.	F = m a | Acceleration is directly proportional to the resultant force and inversely proportional to mass.
+Forces & Motion: A 1200 kg car accelerates at 2 m/s². What resultant force acts on it?	F = m a = 1200 × 2 = 2400 N
+Forces & Motion: State Newton's third law.	When two objects interact, they exert equal and opposite forces on each other.
+Forces & Motion: What is inertia? [Higher]	The tendency of an object to stay at rest or keep moving at a constant velocity.
+Forces & Motion: What makes up stopping distance?	Stopping distance = thinking distance + braking distance.
+Forces & Motion: What affects reaction time (thinking distance)?	Tiredness, drugs, alcohol and distractions. Thinking distance also increases with speed.
+Forces & Motion: What affects braking distance?	Speed, wet or icy roads, worn brakes, worn tyres and the mass of the vehicle.
+Forces & Motion: Typical human reaction time?	0.2 to 0.9 seconds.
+Forces & Motion: What happens to the energy when a car brakes?	Friction between the brakes and wheels does work, transferring kinetic energy to thermal energy. The brakes heat up.
+Forces & Motion: Equation for momentum (with units). [Higher]	p = m v | p in kg m/s, m in kg, v in m/s
+Forces & Motion: State the conservation of momentum. [Higher]	In a closed system, the total momentum before an event equals the total momentum after.
+Forces & Motion: A 2 kg trolley moves at 3 m/s. What is its momentum? [Higher]	p = 2 × 3 = 6 kg m/s
+Forces & Motion: Equation linking force and change in momentum. [Higher] [Triple]	F = m Δv ÷ Δt | Force equals the rate of change of momentum.
+Forces & Motion: How do airbags, seat belts and crumple zones keep you safe? [Triple]	They increase the time taken for your momentum to change, which reduces the force on you.
+Forces & Motion: Why is an object moving in a circle at constant speed accelerating? [Higher]	Its direction keeps changing, so its velocity changes. A change in velocity is acceleration.
+Waves: Transverse vs longitudinal waves (with examples).	Transverse: oscillations perpendicular to the direction of energy transfer (light, ripples on water). Longitudinal: oscillations parallel (sound), with compressions and rarefactions.
+Waves: What do waves transfer?	Energy, not matter.
+Waves: Define amplitude.	The maximum displacement of a point on a wave from its undisturbed position.
+Waves: Define wavelength.	The distance from a point on one wave to the same point on the next wave.
+Waves: Define frequency.	The number of waves passing a point each second. Measured in hertz (Hz).
+Waves: Equation linking period and frequency.	T = 1 ÷ f | T in s, f in Hz
+Waves: Wave speed equation (with units).	v = f λ | v in m/s, f in Hz, λ (wavelength) in m
+Waves: A wave has a frequency of 50 Hz and a wavelength of 0.2 m. What is its speed?	v = f λ = 50 × 0.2 = 10 m/s
+Waves: List the EM spectrum from longest to shortest wavelength.	Radio, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays.
+Waves: 3 things all EM waves have in common.	They are transverse, travel at the same speed in a vacuum (3 × 10⁸ m/s), and transfer energy from source to absorber.
+Waves: Uses of radio waves, microwaves and infrared.	Radio: TV and radio. Microwaves: satellite communications, cooking. Infrared: electric heaters, cooking, infrared cameras.
+Waves: Uses of visible light, UV, X-rays and gamma rays.	Visible: fibre optic communications. UV: energy-efficient lamps, sun tanning. X-rays and gamma: medical imaging and treatment.
+Waves: Dangers of UV, X-rays and gamma rays.	UV: ages skin prematurely, increases risk of skin cancer. X-rays and gamma: ionising radiation, can cause gene mutations and cancer.
+Waves: What is refraction?	A change in direction when a wave crosses a boundary and changes speed. It bends towards the normal when it slows down.
+Waves: Why does refraction happen? (wavefronts) [Higher]	One part of the wavefront enters the new material first and changes speed first, so the wave changes direction.
+Waves: How are radio waves produced and absorbed? [Higher]	Produced by oscillations in electrical circuits. When absorbed, they can create an alternating current with the same frequency.
+Waves: Where do gamma rays come from?	Changes in the nucleus of an atom.
+Waves: Law of reflection. Specular vs diffuse reflection? [Triple]	Angle of incidence = angle of reflection. Specular: from a smooth surface, one direction. Diffuse: from a rough surface, scattered.
+Waves: Why does a red object look red? [Triple]	It reflects red light and absorbs all other colours. Filters let through only their own colour.
+Waves: Convex vs concave lens? [Triple]	Convex: converging, can form real images. Concave: diverging, always forms virtual images.
+Waves: Equation for magnification. [Triple]	Magnification = image height ÷ object height | No units
+Waves: What is a perfect black body? [Triple]	An object that absorbs all the radiation that hits it. It is also the best possible emitter.
+Waves: How does temperature affect the radiation an object emits? [Triple]	A hotter object emits more radiation in total, and more at shorter wavelengths.
+Waves: Range of human hearing? What is ultrasound used for? [Triple]	About 20 Hz to 20 kHz. Ultrasound (above 20 kHz) is used for medical scans and industrial imaging, because it partly reflects at boundaries.
+Waves: P waves vs S waves. What do they show about Earth? [Triple]	P waves: longitudinal, travel through solids and liquids. S waves: transverse, solids only. S waves can't pass through the outer core, so it must be liquid.
+Magnetism & Electromagnetism: What happens when two magnets' poles are brought together?	Like poles repel and unlike poles attract. The forces are strongest at the poles.
+Magnetism & Electromagnetism: Permanent vs induced magnet?	Permanent: has its own magnetic field. Induced: becomes a magnet only when placed in a magnetic field, and it always attracts.
+Magnetism & Electromagnetism: Name 4 magnetic materials.	Iron, steel, cobalt and nickel.
+Magnetism & Electromagnetism: Which way do magnetic field lines point? What does a compass show?	From north to south. A compass points along the field lines. Compasses show Earth has a magnetic core.
+Magnetism & Electromagnetism: Describe the magnetic field around a wire carrying current.	Circles around the wire. It's stronger with a bigger current and closer to the wire.
+Magnetism & Electromagnetism: What is a solenoid? How do you make it stronger?	A coil of wire. Inside, the field is strong and uniform. Outside, it looks like a bar magnet's. Add an iron core to make an electromagnet.
+Magnetism & Electromagnetism: What is the motor effect? [Higher]	A wire carrying a current in a magnetic field experiences a force.
+Magnetism & Electromagnetism: Equation for the force on a current-carrying wire. [Higher]	F = B I l | F in N, B = magnetic flux density in tesla (T), I in A, l in m
+Magnetism & Electromagnetism: Fleming's left-hand rule: what does each finger show? [Higher]	Thumb = force (motion). First finger = field. Second finger = current.
+Magnetism & Electromagnetism: Why does an electric motor's coil rotate? [Higher]	Current flows through a coil in a magnetic field. The forces on each side act in opposite directions, so the coil turns.
+Magnetism & Electromagnetism: How does a loudspeaker work? [Triple]	An alternating current flows in a coil in a magnetic field. The coil and cone vibrate, making pressure waves (sound).
+Magnetism & Electromagnetism: What is the generator effect? [Higher] [Triple]	A pd is induced when a wire moves relative to a magnetic field, or the field around it changes.
+Magnetism & Electromagnetism: 3 ways to increase the induced pd. [Higher] [Triple]	Move the wire or magnet faster, use a stronger magnet, or use more turns on the coil.
+Magnetism & Electromagnetism: Alternator vs dynamo? [Higher] [Triple]	Alternator: makes ac, uses slip rings. Dynamo: makes dc, uses a split-ring commutator.
+Magnetism & Electromagnetism: How does a transformer work? [Higher] [Triple]	An alternating current in the primary coil makes a changing magnetic field in the iron core. This induces a pd in the secondary coil.
+Magnetism & Electromagnetism: Two transformer equations. [Higher] [Triple]	Vp ÷ Vs = np ÷ ns | Vs Is = Vp Ip (if 100% efficient)
+Space Physics: What is in our solar system? [Triple]	One star (the Sun), eight planets, dwarf planets such as Pluto, and moons. It is part of the Milky Way galaxy.
+Space Physics: How does a star form? [Triple]	A nebula (cloud of dust and gas) is pulled together by gravity into a protostar. It heats up until fusion starts.
+Space Physics: Why is a main sequence star stable? [Triple]	The outward pressure from fusion balances the inward pull of gravity.
+Space Physics: Life cycle of a star about the size of the Sun. [Triple]	Main sequence → red giant → white dwarf → black dwarf.
+Space Physics: Life cycle of a star much bigger than the Sun. [Triple]	Main sequence → red supergiant → supernova → neutron star or black hole.
+Space Physics: Where do elements heavier than iron come from? [Triple]	They are made in supernovae, which spread elements throughout the universe.
+Space Physics: What keeps planets and satellites in orbit? [Triple]	Gravity. In a circular orbit the speed stays the same but the direction (so velocity) keeps changing.
+Space Physics: How does orbit size affect speed? [Higher] [Triple]	A smaller orbit needs a higher speed to stay in a stable orbit.
+Space Physics: What is red-shift? [Triple]	Light from distant galaxies has a longer wavelength than expected: it's shifted towards the red end of the spectrum.
+Space Physics: What does red-shift tell us about the universe? [Triple]	More distant galaxies are moving away faster, so the universe is expanding. This supports the Big Bang theory.
+Space Physics: What can't we explain about the universe yet? [Triple]	Dark mass (dark matter) and dark energy.
+Required Practicals: Specific heat capacity practical: method in brief.	Heat a block with an immersion heater. Measure energy supplied (joulemeter, or V × I × t) and the temperature rise. c = ΔE ÷ (m Δθ). Insulate the block.
+Required Practicals: Resistance of a wire: independent, dependent and control variables.	Independent: length of wire. Dependent: resistance. Control: material, thickness, temperature (use a low current).
+Required Practicals: I–V characteristics practical: method in brief.	Use a variable resistor to change the pd. Record current and pd for each setting. Swap the connections to get negative values.
+Required Practicals: How do you find the density of an irregular object?	Measure its mass on a balance. Find its volume by displacement in a eureka can or measuring cylinder. ρ = m ÷ V.
+Required Practicals: Spring practical: how do you find the spring constant?	Add masses, measure the extension with a ruler each time. Plot force against extension. The gradient of the straight part = k.
+Required Practicals: Acceleration practical: how do you keep mass constant when changing force?	Move masses from the trolley to the hanger, so the total mass of the system stays the same.
+Required Practicals: Ripple tank: how do you measure wavelength and frequency?	Wavelength: measure across 10 waves with a ruler, then divide by 10. Frequency: count waves passing a point in 10 s, then divide by 10.
+Required Practicals: Leslie cube: which surface emits the most infrared? [Triple]	Matt black emits the most. Shiny silver emits the least.
+Required Practicals: Reflection and refraction practical: method in brief. [Triple]	Shine a ray from a ray box at a glass block. Mark the rays, draw the normal and measure the angles with a protractor.
+Required Practicals: Thermal insulation practical: method in brief. [Triple]	Wrap beakers of hot water in different materials. Measure the temperature drop over the same time. Keep the starting temperature and volume the same.
+Units & Skills: SI prefixes: giga, mega, kilo, centi, milli, micro, nano.	G = 10⁹, M = 10⁶, k = 10³, c = 10⁻², m = 10⁻³, µ = 10⁻⁶, n = 10⁻⁹
+Units & Skills: Convert 2.5 kW to W, and 45 minutes to seconds.	2.5 kW = 2500 W. 45 min × 60 = 2700 s.
+Units & Skills: How do you convert km/h to m/s?	Divide by 3.6. For example, 72 km/h ÷ 3.6 = 20 m/s.
+Units & Skills: Define resolution.	The smallest change in a quantity that a measuring instrument can detect.
+Units & Skills: Accurate vs precise?	Accurate: close to the true value. Precise: repeat readings are close together (little spread).
+Units & Skills: Random error vs systematic error?	Random: readings vary unpredictably (reduce by repeating and averaging). Systematic: every reading is off by the same amount, e.g. a zero error.
+Units & Skills: Independent, dependent and control variables?	Independent: the one you change. Dependent: the one you measure. Control: the ones you keep the same.
+Units & Skills: Repeatable vs reproducible?	Repeatable: same results when the same person repeats it. Reproducible: same results when someone else does it, or with different equipment.
+Units & Skills: What does a straight-line graph through the origin show?	The two variables are directly proportional.
+Units & Skills: Write 300 000 000 m/s in standard form.	3 × 10⁸ m/s

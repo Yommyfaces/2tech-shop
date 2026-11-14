@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<meta name="description" content="2Tech Digital Store: instant-download GCSE revision packs (GradeUp) and more.">
+<!-- Social preview (shown when the link is shared). Edit to suit your main product. -->
+<meta property="og:title" content="GradeUp GCSE Revision Packs – Instant Download">
+<meta property="og:description" content="Maths, Physics and English. AQA, Edexcel and OCR. Download in seconds.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!--
+╔══════════════════════════════════════════════════════════════════════╗
+║  HOW TO USE THIS PAGE                                                  ║
+║                                                                        ║
+║  1. Edit the STORE settings below (name, email, socials, colours).     ║
+║  2. Edit / add products in the PRODUCTS list. Copy any product block,  ║
+║     give it a new unique "id", change the text, done.                  ║
+║  3. Paste each product's Stripe Payment Link into "checkoutUrl".       ║
+║  4. Share links like:                                                  ║
+║        yoursite.co.uk/?p=gcse-maths            → one product page      ║
+║        yoursite.co.uk/?p=gcse-maths&src=tiktok → tracks the source     ║
+║        yoursite.co.uk/                         → whole shop            ║
+║        yoursite.co.uk/?c=GCSE                  → one category          ║
+║                                                                        ║
+║  "src" is passed to Stripe as client_reference_id, so each payment     ║
+║  in your Stripe dashboard shows which platform it came from.           ║
+╚══════════════════════════════════════════════════════════════════════╝
+-->
+<script>
+const STORE = {
+  name: "2Tech Digital Store",        // shop name (top bar + footer)
+  tagline: "Digital downloads that actually get used.",
+  intro: "Revision packs, tools and art from 2Tech Consultancy Limited. Pay securely, download in seconds and keep it forever.",
+  logo: "images/2tech-icon.svg",
+  email: "AbayomiShomoye@2techconsultancy.co.uk",
+  company: "2TECH CONSULTANCY LIMITED · Company no. 11293770 · VAT no. GB 300 3775 41 · 167-169 Great Portland Street, 5th Floor, London W1W 5PF",
+  vatNote: "All prices include VAT.",
+  currency: "£",
+  socials: {                          // paste each profile link once the account exists; "" hides it
+    tiktok: "",
+    instagram: "",
+    youtube: "",
+    linkedin: ""
+  },
+  brandColour: "#DC143C",             // 2Tech crimson (buttons / accents)
+  brandColour2: "#16161D"             // 2Tech charcoal
+};
+
+/*  PRODUCT FIELDS
+    id           unique, lowercase-with-dashes (used in the link ?p=id)
+    hidden       true = not shown anywhere and its link doesn't open (use while a product isn't ready)
+    brand        the product's own brand, shown on its cover and page (e.g. "GradeUp")
+    category     groups products in the shop (e.g. "GCSE Revision", "Property", "Wall Art")
+    title, subtitle, price (number)
+    regularPrice optional: the price it will go up to after a launch offer. Shows "Launch price · rises to £X".
+                 Only use if you really will raise it (UK consumer law). Remove once the price has gone up.
+    compareAt    optional "was" price – ONLY a price you genuinely charged before. Never use for a launch offer.
+    bundleOf     optional list of product ids → shows "Save £X vs buying separately"
+    emoji, colours [from, to]   used to draw a cover if there's no image
+    image        product cover image (path or URL)
+    format       short line, e.g. "PDF · 96 pages"
+    insideSub    one line under the "What's inside" heading
+    checkoutUrl  the product's Stripe Payment Link (https://buy.stripe.com/...)
+    highlights   3–6 feature cards {icon, title, text}
+    includes     bullet list of everything in the download
+    forWho       bullet list of who it's for
+    faqs         {q, a}
+    reviews      ONLY real customer reviews {name, text}. Leave [] until you have some – section hides itself.
+*/
+const GCSE_FAQS = [
+  { q: "How do I get it?", a: "Straight after payment you'll get your download link on screen and by email. No waiting, no post." },
+  { q: "Which exam boards does it cover?", a: "AQA, Pearson Edexcel and OCR. Anything that only applies to one board is labelled." },
+  { q: "Can I print it?", a: "Yes. Print it at home, or use it on a tablet or laptop with any PDF reader." },
+  { q: "Does it work with Quizlet or Anki?", a: "Yes. Every flashcard pack includes a text file you can import into Quizlet or Anki in a few clicks." },
+  { q: "Can I share it with my class?", a: "The licence is for one household. Tutors and schools: email us for a group licence." }
+];
+
+const PRODUCTS = [
+  {
+    id: "gcse-maths",
+    brand: "GradeUp",
+    category: "GCSE Revision",
+    title: "GradeUp GCSE Maths Pack",
+    subtitle: "186 flashcards covering every GCSE Maths topic, plus one-page Algebra cheat sheets with worked examples and exam-style questions. Foundation and Higher.",
+    price: 4.99,
+    regularPrice: 6.99,
+    emoji: "📐",
+    colours: ["#131A3A", "#C6F432"],
+    image: "images/gradeup-maths.png",
+    format: "PDF + Quizlet/Anki file · instant download",
+    insideSub: "Short, focused revision that fits around school.",
+    checkoutUrl: "https://buy.stripe.com/7sYaERaNqeKc9J22R3bsc00",
+    highlights: [
+      { icon: "🃏", title: "186 flashcards", text: "Number, algebra, graphs, ratio, geometry, trigonometry, probability, statistics and exam skills." },
+      { icon: "📄", title: "Algebra cheat sheets", text: "8 key algebra methods on one-page sheets, with 18 worked examples." },
+      { icon: "✍️", title: "20 exam-style questions", text: "With full worked answers, so you can see where marks are won and lost." },
+      { icon: "⚠️", title: "Top 8 mistakes", text: "The algebra traps that cost students marks, and how to avoid them." }
+    ],
+    includes: [
+      "Maths flashcards: print-and-cut version (186 cards)",
+      "Maths study sheet: every card on easy-to-read pages, plus formulas to memorise",
+      "Algebra cheat sheets: 8 topics, 18 worked examples, 20 exam-style questions with answers, progress tracker",
+      "Quizlet / Anki import file"
+    ],
+    forWho: [
+      "Year 10 & 11 students preparing for mocks or finals",
+      "Parents who want structured revision at home",
+      "Tutors looking for ready-made practice material"
+    ],
+    faqs: GCSE_FAQS,
+    reviews: []
+  },
+  {
+    id: "gcse-physics",
+    brand: "GradeUp",
+    category: "GCSE Revision",
+    title: "GradeUp GCSE Physics Pack",
+    subtitle: "207 flashcards: every equation with units, required practicals, worked calculations and key facts. Combined and Triple.",
+    price: 4.99,
+    regularPrice: 6.99,
+    emoji: "⚡",
+    colours: ["#131A3A", "#4F5BD5"],
+    image: "images/gradeup-physics.png",
+    format: "PDF + Quizlet/Anki file · instant download",
+    insideSub: "Stop guessing which equation to use.",
+    checkoutUrl: "https://buy.stripe.com/aFabIVf3GdG8aN63V7bsc01",
+    highlights: [
+      { icon: "🧮", title: "Every equation, with units", text: "All the GCSE equations on one sheet, with the unit for every quantity." },
+      { icon: "🔬", title: "Required practicals", text: "Method, variables and what to measure for each practical." },
+      { icon: "✅", title: "Worked calculations", text: "Step-by-step examples so you can see exactly how to set out an answer." },
+      { icon: "🏷️", title: "Clearly tagged", text: "Higher-only and Triple-only cards are marked, so you only revise what's on your paper." }
+    ],
+    includes: [
+      "Physics flashcards: print-and-cut version (207 cards)",
+      "Physics study sheet: every card on easy-to-read pages, plus a full equation sheet",
+      "10 topics: energy, electricity, particles, atoms, forces, waves, magnetism, space, required practicals, units & skills",
+      "Quizlet / Anki import file"
+    ],
+    forWho: [
+      "Combined Science and Separate (Triple) Physics students",
+      "Parents supporting revision at home",
+      "Tutors"
+    ],
+    faqs: [
+      { q: "Is it for Combined or Triple Physics?", a: "Both. Triple-only and Higher-only cards are clearly tagged." },
+      ...GCSE_FAQS
+    ],
+    reviews: []
+  },
+  {
+    id: "gcse-english",
+    brand: "GradeUp",
+    category: "GCSE Revision",
+    title: "GradeUp GCSE English Language Pack",
+    subtitle: "Paper 1, question by question: exam maps, the What–How–Why method, 5 model answers, a creative writing kit and a practice paper. Plus 117 flashcards.",
+    price: 4.99,
+    regularPrice: 6.99,
+    emoji: "📚",
+    colours: ["#131A3A", "#E5487F"],
+    image: "images/gradeup-english.png",
+    format: "PDF + Quizlet/Anki file · instant download",
+    insideSub: "Know exactly what to do in every question.",
+    checkoutUrl: "https://buy.stripe.com/fZudR3aNq45ybRaezLbsc04",
+    highlights: [
+      { icon: "🗺️", title: "Exam maps", text: "Every Paper 1 question for AQA, Edexcel and OCR, with marks and minutes." },
+      { icon: "🔍", title: "What–How–Why", text: "A simple method for language analysis that examiners reward." },
+      { icon: "⭐", title: "5 model answers", text: "Annotated answers on an original extract, showing what top-band responses do." },
+      { icon: "✍️", title: "Creative writing kit", text: "Plans, openings and an annotated model for the 40-mark writing question." }
+    ],
+    includes: [
+      "Paper 1 Toolkit (16 pages): exam maps, 18 techniques, structure toolkit, evaluation method, original extract + 5 model answers, creative writing kit, vocab bank, SPaG fixes, practice paper, timing plans",
+      "English Language flashcards: print-and-cut version (117 cards)",
+      "English study sheet: every card on easy-to-read pages",
+      "Quizlet / Anki import file"
+    ],
+    forWho: ["Year 10 & 11 students taking English Language", "Parents supporting revision at home", "Tutors"],
+    faqs: [
+      { q: "Is this English Language or Literature?", a: "English Language (Paper 1, plus Paper 1 and 2 skills on the flashcards). It doesn't cover Literature set texts." },
+      ...GCSE_FAQS
+    ],
+    reviews: []
+  },
+  {
+    id: "gcse-bundle",
+    brand: "GradeUp",
+    category: "GCSE Revision",
+    title: "GradeUp GCSE Core Bundle: Maths + Physics + English",
+    subtitle: "All three GradeUp packs in one download, for less than buying them separately.",
+    price: 11.99,
+    regularPrice: 14.99,
+    bundleOf: ["gcse-maths", "gcse-physics", "gcse-english"],
+    emoji: "🎒",
+    colours: ["#131A3A", "#C6F432"],
+    image: "images/gradeup-bundle.png",
+    format: "3 packs · PDF + Quizlet/Anki files · instant download",
+    insideSub: "All three core subjects, one download.",
+    checkoutUrl: "https://buy.stripe.com/8x25kx3kYby0aN64Zbbsc02",
+    highlights: [
+      { icon: "📐", title: "Maths pack", text: "186 flashcards plus Algebra cheat sheets with worked examples." },
+      { icon: "⚡", title: "Physics pack", text: "207 flashcards: equations, required practicals and worked calculations." },
+      { icon: "📚", title: "English Language pack", text: "Paper 1 Toolkit with 5 model answers, plus 117 flashcards." }
+    ],
+    includes: [
+      "GradeUp GCSE Maths Pack",
+      "GradeUp GCSE Physics Pack",
+      "GradeUp GCSE English Language Pack"
+    ],
+    forWho: ["Students who want all three core subjects covered", "Parents buying for the whole exam season"],
+    faqs: [
+      { q: "Do I get all three straight away?", a: "Yes. All three downloads arrive immediately after payment." },
+      ...GCSE_FAQS
+    ],
+    reviews: []
+  },
+
+  /* ---------- Not live yet: set hidden:false once details + Stripe link are ready ---------- */
+  {
+    id: "stacked-deals",
+    hidden: true,                     // switch to false once the Stripe link is in and the files are ready to deliver
+    brand: "StackedDeals",
+    category: "Property",
+    title: "StackedDeals UK Property Deal Analyser v4.0",
+    subtitle: "One spreadsheet for every UK strategy: BTL, BRRRR, HMO, Rent-to-Rent, Serviced Accommodation and Flips, with full auction purchase logic. Analyse a deal in under 10 minutes.",
+    price: 14.99,
+    emoji: "🏠",
+    colours: ["#1A237E", "#C8A95A"],
+    image: "",
+    format: "Excel · Google Sheets · Notion · PDF guide",
+    insideSub: "Stop guessing. Know your numbers before you offer or bid.",
+    checkoutUrl: "https://buy.stripe.com/00w4gtf3G0Tm08s8bnbsc03",
+    highlights: [
+      { icon: "📊", title: "Live dashboard", text: "Deal score, traffic lights and 3 charts that update as you type: cashflow, costs and benchmarks." },
+      { icon: "🔨", title: "Auction logic", text: "Hammer price, 10% deposit, buyer's fee and legal pack costs roll into your true effective purchase price." },
+      { icon: "⚠️", title: "26 deal killer checks", text: "Legal, structural, planning, financial and auction checks flag a bad deal before it costs you." },
+      { icon: "🔄", title: "BRRRR refinance", text: "See exactly how much cash is left in the deal and how much capital you recycle." },
+      { icon: "🧱", title: "Refurb estimator", text: "Cost per m² by property type and refurb level, plus an 18-line budget vs actual tracker." }
+    ],
+    includes: [
+      "12-tab spreadsheet with 183+ live formulas",
+      "6 strategies: BTL, BRRRR, HMO, R2R, SA and Flip",
+      "Auction purchase block in BTL, BRRRR, HMO, SA and Flip tabs",
+      "26-point deal killer checklist (including 3 auction checks)",
+      "Refurb estimator and budget tracker",
+      "Works in Excel, Google Sheets and Notion",
+      "11-page PDF guide, including an auction purchase guide"
+    ],
+    forWho: [
+      "New and experienced UK property investors",
+      "Anyone buying at auction who wants their real all-in cost",
+      "Deal sourcers who need to present numbers clearly"
+    ],
+    faqs: [
+      { q: "Do I need Microsoft Excel?", a: "No. It works in Excel, Google Sheets and Notion." },
+      { q: "Can I use it for more than one deal?", a: "Yes, for unlimited personal deals. Keep a blank master copy and duplicate it for each deal." },
+      { q: "Is it suitable for beginners?", a: "Yes. Green cells are inputs, blue cells are formulas and amber cells are auction inputs. The PDF guide walks you through everything." },
+      { q: "Is this financial advice?", a: "No. It's a calculation tool to help you assess deals. Always do your own due diligence and take professional advice." },
+      { q: "How do I get it?", a: "Straight after payment you'll get your download link on screen and by email." }
+    ],
+    reviews: []
+  },
+  {
+    id: "african-warrior-wallpapers",
+    hidden: true,
+    brand: "2Tech Art",
+    category: "Wall Art",
+    title: "African Warrior Wallpaper Pack",
+    subtitle: "TO DO: one-line description.",
+    price: 0,
+    emoji: "🛡️",
+    colours: ["#C2410C", "#F59E0B"],
+    image: "",
+    format: "TO DO: e.g. High-res PNG · iPhone & Android sizes",
+    insideSub: "TO DO",
+    checkoutUrl: "https://buy.stripe.com/REPLACE_ME",
+    highlights: [],
+    includes: [],
+    forWho: [],
+    faqs: [
+      { q: "How do I set them as wallpaper?", a: "Download to your phone, open in Photos, tap Share → Use as Wallpaper (iPhone) or Set as wallpaper (Android)." }
+    ],
+    reviews: []
+  }
+];
+</script>
+
+<style>
+  :root{
+    --brand:#5B3DF5; --brand2:#FF6B4A;
+    --ink:#14112B; --muted:#5D5A73; --line:#E8E6F2;
+    --bg:#FAFAFE; --card:#FFFFFF; --soft:#F2F0FF;
+    --radius:20px; --shadow:0 10px 30px rgba(20,17,43,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+
+  /* Nav */
+  nav{position:sticky;top:0;z-index:20;background:rgba(250,250,254,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:1.15rem;text-decoration:none;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+  .logo img{width:30px;height:30px;border-radius:8px}
+  .nav-link{font-weight:600;font-size:.95rem;text-decoration:none;color:var(--muted)}
+  .nav-link:hover{color:var(--ink)}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:inherit;font-weight:700;font-size:1.05rem;padding:16px 28px;border-radius:14px;border:0;cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s,background .15s}
+  .btn-buy{background:var(--brand);color:#fff;box-shadow:0 8px 22px color-mix(in srgb,var(--brand) 40%,transparent)}
+  .btn-buy:hover{transform:translateY(-2px);box-shadow:0 12px 28px color-mix(in srgb,var(--brand) 50%,transparent)}
+  .btn-ghost{background:var(--card);color:var(--ink);border:1.5px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--ink)}
+  .btn-sm{padding:11px 18px;font-size:.95rem;border-radius:11px}
+
+  /* Hero */
+  .hero{padding:64px 0 56px}
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .chip{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--brand);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;padding:7px 13px;border-radius:999px}
+  h1{font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.08;letter-spacing:-.035em;font-weight:800;margin:18px 0 16px}
+  .lead{font-size:1.15rem;color:var(--muted);max-width:34em}
+  .price-row{display:flex;align-items:baseline;gap:14px;margin:28px 0 22px;flex-wrap:wrap}
+  .price{font-size:2.4rem;font-weight:800;letter-spacing:-.03em}
+  .was{color:var(--muted);text-decoration:line-through;font-size:1.2rem}
+  .launch{background:#FFF1F3;color:#B0102F;font-weight:700;font-size:.85rem;padding:6px 12px;border-radius:999px}
+  .card .launch{font-size:.72rem;padding:3px 9px}
+  .company{font-size:.78rem;margin-top:6px}
+  .vat{font-size:.82rem;color:var(--muted);margin:-14px 0 20px}
+  .save{background:#E7F8F0;color:#0B8A5E;font-weight:700;font-size:.85rem;padding:6px 12px;border-radius:999px}
+  .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+  .trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px;color:var(--muted);font-size:.9rem;font-weight:500}
+  .trust span{display:flex;align-items:center;gap:7px}
+  .legal-note{font-size:.78rem;color:var(--muted);margin-top:14px;max-width:36em}
+
+  /* Cover mock-up */
+  .mock{position:relative;display:grid;place-items:center;min-height:420px}
+  .mock::before{content:"";position:absolute;inset:8% 4%;border-radius:40px;background:radial-gradient(circle at 30% 30%,var(--c1),transparent 60%),radial-gradient(circle at 70% 70%,var(--c2),transparent 60%);opacity:.25;filter:blur(30px)}
+  .cover{position:relative;width:min(300px,78%);aspect-ratio:3/4;border-radius:18px;padding:28px;color:#fff;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(150deg,var(--c1),var(--c2));box-shadow:14px 14px 0 -2px #fff,14px 14px 0 0 var(--line),28px 28px 0 -2px #fff,28px 28px 0 0 var(--line),0 30px 60px rgba(20,17,43,.25);transform:rotate(-3deg)}
+  .cover .big{font-size:4.2rem;line-height:1}
+  .cover .ct{font-weight:800;font-size:1.5rem;line-height:1.15;letter-spacing:-.02em}
+  .cover .cs{font-size:.8rem;opacity:.9;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+  .cover .brandmark{font-size:.75rem;font-weight:700;opacity:.85}
+  .mock img.real{position:relative;max-height:460px;width:100%;object-fit:contain;border-radius:18px;box-shadow:0 30px 60px rgba(20,17,43,.25)}
+
+  /* Sections */
+  section{padding:72px 0}
+  .alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  h2{font-size:clamp(1.7rem,3.2vw,2.3rem);letter-spacing:-.03em;line-height:1.15;font-weight:800;margin-bottom:10px}
+  .sub{color:var(--muted);font-size:1.05rem;margin-bottom:38px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+  .feature{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:transform .2s,box-shadow .2s}
+  .alt .feature{background:var(--bg)}
+  .feature:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .feature .ic{font-size:1.7rem;width:52px;height:52px;display:grid;place-items:center;border-radius:14px;background:var(--soft);margin-bottom:16px}
+  .feature h3{font-size:1.1rem;margin-bottom:6px;letter-spacing:-.01em}
+  .feature p{color:var(--muted);font-size:.95rem}
+
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:32px}
+  .panel h3{font-size:1.25rem;margin-bottom:18px;letter-spacing:-.01em}
+  .ticks{list-style:none;display:grid;gap:12px}
+  .ticks li{display:flex;gap:12px;align-items:flex-start}
+  .ticks li::before{content:"✓";flex:none;width:24px;height:24px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;font-size:.8rem;display:grid;place-items:center;margin-top:1px}
+  .ticks.dot li::before{content:"→";background:var(--soft);color:var(--brand)}
+
+  /* Bundle upsell */
+  .upsell{display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-radius:24px;padding:34px;background:linear-gradient(120deg,#1B1340,var(--brand));color:#fff}
+  .upsell h3{font-size:1.5rem;letter-spacing:-.02em;margin:8px 0 6px}
+  .upsell p{opacity:.85}
+  .upsell .chip{background:rgba(255,255,255,.15);color:#fff}
+  .upsell .btn{background:#fff;color:#1B1340}
+
+  /* Reviews */
+  .review{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+  .review p{font-size:1rem;margin-bottom:12px}
+  .review b{font-size:.9rem;color:var(--muted)}
+
+  /* FAQ */
+  .faq{max-width:780px}
+  details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:0 22px;margin-bottom:12px}
+  summary{cursor:pointer;list-style:none;font-weight:700;padding:20px 0;display:flex;justify-content:space-between;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--brand);transition:transform .2s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details p{color:var(--muted);padding-bottom:20px}
+
+  /* Final CTA */
+  .final{text-align:center}
+  .final .box{border-radius:28px;padding:56px 26px;background:var(--soft)}
+  .final .price{display:block;margin:14px 0 22px}
+
+  /* Shop cards */
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+  .filter{font:inherit;font-weight:600;font-size:.92rem;padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);cursor:pointer;color:var(--muted)}
+  .filter.on{background:var(--ink);border-color:var(--ink);color:#fff}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .card .thumb{aspect-ratio:16/9;display:grid;place-items:center;font-size:3.4rem;background:linear-gradient(140deg,var(--c1),var(--c2))}
+  .card .thumb img{width:100%;height:100%;object-fit:cover}
+  .card .body{padding:20px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .card .cat{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand)}
+  .card h3{font-size:1.08rem;line-height:1.3;letter-spacing:-.01em}
+  .card .meta{color:var(--muted);font-size:.88rem;flex:1}
+  .card .foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+  .card .p{font-weight:800;font-size:1.2rem}
+  .card .go{font-weight:700;color:var(--brand);font-size:.92rem}
+
+  /* Footer */
+  footer{padding:44px 0 110px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+  footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+  .socials{display:flex;gap:16px}
+  .socials a{text-decoration:none;font-weight:600}
+  .socials a:hover{color:var(--brand)}
+
+  /* Sticky mobile bar */
+  .sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:12px 18px;display:none;align-items:center;justify-content:space-between;gap:14px;transform:translateY(100%);transition:transform .25s}
+  .sticky.show{transform:none}
+  .sticky .t{font-weight:700;font-size:.92rem;line-height:1.25}
+  .sticky .t span{display:block;font-weight:800;font-size:1.1rem}
+
+  .toast{position:fixed;left:50%;top:84px;transform:translate(-50%,-20px);opacity:0;pointer-events:none;background:var(--ink);color:#fff;padding:14px 20px;border-radius:12px;font-weight:600;font-size:.92rem;z-index:50;transition:.25s;max-width:90vw;text-align:center}
+  .toast.show{opacity:1;transform:translate(-50%,0)}
+
+  @media (max-width:860px){
+    .hero{padding:36px 0 40px}
+    .hero-grid,.two{grid-template-columns:1fr}
+    .hero-grid .mock{order:-1;min-height:300px}
+    .cover{width:min(230px,64%)}
+    .mock:has(img.real){min-height:0;padding:8px 0}
+    section{padding:54px 0}
+    .sticky{display:flex}
+  }
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="logo" href="?" data-home><img id="brandLogo" src="" alt=""><span id="brandName"></span></a>
+  <a class="nav-link" href="?" data-home id="navLink">All products</a>
+</div></nav>
+
+<main id="app"></main>
+
+<footer><div class="wrap">
+  <div><div>© <span id="yr"></span> <span id="footBrand"></span> · <a id="footEmail" href="#"></a></div><div class="company" id="footCompany"></div><div class="company"><a href="terms.html">Terms of Sale</a> · <a href="refunds.html">Refund Policy</a> · <a href="privacy.html">Privacy Policy</a></div></div>
+  <div class="socials" id="socials"></div>
+</div></footer>
+
+<div class="sticky" id="sticky"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const money = n => STORE.currency + Number(n).toFixed(2);
+  const params = new URLSearchParams(location.search);
+  const src = (params.get("src") || "").replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 60);
+
+  // Remember where the visitor came from, so it survives clicking around the shop
+  let source = src;
+  try { if (src) sessionStorage.setItem("src", src); else source = sessionStorage.getItem("src") || ""; } catch(e){}
+
+  // Brand
+  document.documentElement.style.setProperty("--brand", STORE.brandColour);
+  document.documentElement.style.setProperty("--brand2", STORE.brandColour2);
+  $("#brandName").textContent = STORE.name;
+  if (STORE.logo) $("#brandLogo").src = STORE.logo; else $("#brandLogo").remove();
+  $("#footCompany").textContent = STORE.company || "";
+  $("#footBrand").textContent = STORE.name;
+  $("#yr").textContent = new Date().getFullYear();
+  $("#footEmail").textContent = STORE.email;
+  $("#footEmail").href = "mailto:" + STORE.email;
+  const socialNames = {tiktok:"TikTok",instagram:"Instagram",youtube:"YouTube",linkedin:"LinkedIn"};
+  $("#socials").innerHTML = Object.entries(STORE.socials).filter(([,u]) => u)
+    .map(([k,u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${socialNames[k]||k}</a>`).join("");
+
+  const link = (q) => { const p = new URLSearchParams(q); if (source) p.set("src", source); const s = p.toString(); return s ? "?" + s : "?"; };
+  document.querySelectorAll("[data-home]").forEach(a => a.href = link({}));
+
+  const LIVE = PRODUCTS.filter(p => !p.hidden);
+  const byId = id => LIVE.find(p => p.id === id);
+  const bundleValue = p => (p.bundleOf || []).reduce((t, id) => t + (byId(id)?.price || 0), 0);
+
+  function checkout(p){
+    const url = p.checkoutUrl || "";
+    if (!url || url.includes("REPLACE")) return "#";
+    try {
+      const u = new URL(url);
+      if (source) u.searchParams.set("client_reference_id", source);
+      return u.toString();
+    } catch(e){ return url; }
+  }
+  const buyAttrs = p => { const h = checkout(p); return h === "#" ? `href="#" data-missing="1"` : `href="${esc(h)}"`; };
+
+  function coverHTML(p){
+    const vars = `--c1:${esc(p.colours?.[0]||STORE.brandColour)};--c2:${esc(p.colours?.[1]||STORE.brandColour2)}`;
+    if (p.image) return `<div class="mock" style="${vars}"><img class="real" src="${esc(p.image)}" alt="${esc(p.title)}"></div>`;
+    return `<div class="mock" style="${vars}"><div class="cover">
+      <div class="cs">${esc(p.category)}</div>
+      <div class="big">${esc(p.emoji||"✨")}</div>
+      <div><div class="ct">${esc(p.title)}</div><div class="brandmark">${esc(p.brand||STORE.name)}</div></div>
+    </div></div>`;
+  }
+
+  function priceHTML(p){
+    let extra = "";
+    if (p.compareAt && p.compareAt > p.price) extra += `<span class="was">${money(p.compareAt)}</span>`;
+    if (p.regularPrice && p.regularPrice > p.price) extra += `<span class="launch">Launch price · rises to ${money(p.regularPrice)}</span>`;
+    const bv = bundleValue(p);
+    if (bv > p.price) extra += `<span class="save">Save ${money(bv - p.price)} vs buying separately</span>`;
+    return `<div class="price-row"><span class="price">${money(p.price)}</span>${extra}</div>${STORE.vatNote ? `<p class="vat">${esc(STORE.vatNote)}</p>` : ""}`;
+  }
+
+  function cardHTML(p){
+    const vars = `--c1:${esc(p.colours?.[0]||STORE.brandColour)};--c2:${esc(p.colours?.[1]||STORE.brandColour2)}`;
+    return `<a class="card" href="${link({p:p.id})}">
+      <div class="thumb" style="${vars}">${p.image ? `<img src="${esc(p.image)}" alt="">` : esc(p.emoji||"✨")}</div>
+      <div class="body">
+        <div class="cat">${esc(p.category)}</div>
+        <h3>${esc(p.title)}</h3>
+        <div class="meta">${esc(p.format||"")}</div>
+        <div class="foot"><span class="p">${money(p.price)} ${p.regularPrice > p.price ? `<span class="launch">Launch price</span>` : ""}</span><span class="go">View →</span></div>
+      </div></a>`;
+  }
+
+  /* ---------- Product page ---------- */
+  function renderProduct(p){
+    document.title = `${p.title} | ${STORE.name}`;
+    $("#navLink").textContent = "← All products";
+    const bundle = !p.bundleOf && LIVE.find(b => (b.bundleOf||[]).includes(p.id));
+    const related = LIVE.filter(x => x.id !== p.id && x.category === p.category && !(p.bundleOf||[]).includes(x.id)).slice(0,3);
+    const others = related.length ? related : LIVE.filter(x => x.id !== p.id).slice(0,3);
+
+    $("#app").innerHTML = `
+    <header class="hero"><div class="wrap hero-grid">
+      <div>
+        <span class="chip">⚡ Instant download · ${esc(p.brand||p.category)}</span>
+        <h1>${esc(p.title)}</h1>
+        <p class="lead">${esc(p.subtitle)}</p>
+        ${priceHTML(p)}
+        <div class="cta-row">
+          <a class="btn btn-buy" ${buyAttrs(p)} id="mainBuy">Get instant access →</a>
+          <a class="btn btn-ghost" href="#inside">See what's inside</a>
+        </div>
+        <div class="trust">
+          <span>🔒 Secure checkout by Stripe</span>
+          <span>📥 ${esc(p.format||"Instant download")}</span>
+          <span>♾️ Yours to keep</span>
+        </div>
+      </div>
+      ${coverHTML(p)}
+    </div></header>
+
+    ${p.highlights?.length ? `<section class="alt" id="inside"><div class="wrap">
+      <h2>What's inside</h2>
+      <p class="sub">${esc(p.insideSub||"")}</p>
+      <div class="grid">${p.highlights.map(h => `<div class="feature"><div class="ic">${esc(h.icon)}</div><h3>${esc(h.title)}</h3><p>${esc(h.text)}</p></div>`).join("")}</div>
+    </div></section>` : ""}
+
+    <section><div class="wrap two">
+      ${p.includes?.length ? `<div class="panel"><h3>Everything you get</h3><ul class="ticks">${p.includes.map(i=>`<li>${esc(i)}</li>`).join("")}</ul></div>` : ""}
+      ${p.forWho?.length ? `<div class="panel"><h3>Who it's for</h3><ul class="ticks dot">${p.forWho.map(i=>`<li>${esc(i)}</li>`).join("")}</ul></div>` : ""}
+    </div></section>
+
+    ${bundle ? `<section style="padding-top:0"><div class="wrap"><div class="upsell">
+      <div><span class="chip">Best value</span><h3>${esc(bundle.title)}</h3>
+      <p>${money(bundle.price)}${bundleValue(bundle) > bundle.price ? ` — save ${money(bundleValue(bundle)-bundle.price)} vs buying separately` : ""}</p></div>
+      <a class="btn" href="${link({p:bundle.id})}">View the bundle →</a>
+    </div></div></section>` : ""}
+
+    ${p.reviews?.length ? `<section class="alt"><div class="wrap">
+      <h2>What buyers say</h2><p class="sub">Real reviews from real customers.</p>
+      <div class="grid">${p.reviews.map(r=>`<div class="review"><p>“${esc(r.text)}”</p><b>— ${esc(r.name)}</b></div>`).join("")}</div>
+    </div></section>` : ""}
+
+    ${p.faqs?.length ? `<section ${p.reviews?.length ? "" : 'class="alt"'}><div class="wrap faq">
+      <h2>Questions</h2><p class="sub">Anything else? Email <a href="mailto:${esc(STORE.email)}">${esc(STORE.email)}</a></p>
+      ${p.faqs.map((f,i)=>`<details ${i===0?"open":""}><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("")}
+    </div></section>` : ""}
+
+    <section class="final"><div class="wrap"><div class="box">
+      <h2>Ready when you are</h2>
+      <p class="sub" style="margin-bottom:0">Download in seconds and start today.</p>
+      <span class="price">${money(p.price)}</span>
+      ${STORE.vatNote ? `<p class="vat" style="margin:-14px 0 20px">${esc(STORE.vatNote)}</p>` : ""}
+      <a class="btn btn-buy" ${buyAttrs(p)}>Get instant access →</a>
+      <p class="legal-note" style="margin:16px auto 0">Because this is digital content delivered immediately, by buying you agree to instant access and acknowledge you lose the 14-day cancellation right once the download starts.</p>
+    </div></div></section>
+
+    ${others.length ? `<section style="padding-top:0"><div class="wrap">
+      <h2>More from ${esc(STORE.name)}</h2><p class="sub">You might also like</p>
+      <div class="cards">${others.map(cardHTML).join("")}</div>
+    </div></section>` : ""}`;
+
+    // Sticky buy bar (mobile) appears once the main button scrolls away
+    const st = $("#sticky");
+    st.innerHTML = `<div class="t">${esc(p.title)}<span>${money(p.price)}</span></div><a class="btn btn-buy btn-sm" ${buyAttrs(p)}>Buy now</a>`;
+    const io = new IntersectionObserver(([e]) => st.classList.toggle("show", !e.isIntersecting && e.boundingClientRect.top < 0));
+    io.observe($("#mainBuy"));
+  }
+
+  /* ---------- Shop page ---------- */
+  function renderShop(){
+    document.title = `${STORE.name} – Shop`;
+    $("#navLink").style.visibility = "hidden";
+    const cats = [...new Set(LIVE.map(p => p.category))];
+    let current = cats.includes(params.get("c")) ? params.get("c") : "All";
+
+    $("#app").innerHTML = `
+    <header class="hero" style="padding-bottom:20px"><div class="wrap">
+      <span class="chip">⚡ Instant downloads</span>
+      <h1>${esc(STORE.tagline)}</h1>
+      <p class="lead">${esc(STORE.intro||"Pay securely, download in seconds and keep it forever.")}</p>
+    </div></header>
+    <section style="padding-top:20px"><div class="wrap">
+      ${cats.length > 1 ? `<div class="filters">${["All",...cats].map(c=>`<button class="filter" data-c="${esc(c)}">${esc(c)}</button>`).join("")}</div>` : ""}
+      <div class="cards" id="cards"></div>
+    </div></section>`;
+
+    const draw = () => {
+      document.querySelectorAll(".filter").forEach(b => b.classList.toggle("on", b.dataset.c === current));
+      $("#cards").innerHTML = LIVE.filter(p => current === "All" || p.category === current).map(cardHTML).join("");
+    };
+    document.querySelectorAll(".filter").forEach(b => b.onclick = () => { current = b.dataset.c; draw(); });
+    draw();
+  }
+
+  // Friendly reminder if a Stripe link hasn't been added yet
+  document.addEventListener("click", e => {
+    const a = e.target.closest("[data-missing]");
+    if (!a) return;
+    e.preventDefault();
+    const t = $("#toast");
+    t.textContent = "Checkout link not set yet — paste this product's Stripe Payment Link into checkoutUrl.";
+    t.classList.add("show");
+    clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 3200);
+  });
+
+  const p = byId(params.get("p") || location.hash.slice(1));
+  p ? renderProduct(p) : renderShop();
+})();
+</script>
+</body>
+</html>
