@@ -41,6 +41,9 @@ const STORE = {
   company: "2TECH CONSULTANCY LIMITED · Company no. 11293770 · VAT no. GB 300 3775 41 · 167-169 Great Portland Street, 5th Floor, London W1W 5PF",
   vatNote: "All prices include VAT.",
   currency: "£",
+  // Shop-wide sale. Runs automatically between the dates (inclusive, UK time) and switches itself off.
+  // Needs a matching Stripe promotion code, and "Allow promotion codes" ticked on each Payment Link.
+  sale: { name: "Cyber Specials", percent: 20, start: "2026-11-23", end: "2026-12-01", code: "CYBER20" },
   socials: {                          // paste each profile link once the account exists; "" hides it
     tiktok: "",
     instagram: "",
@@ -608,6 +611,15 @@ const PRODUCTS = [
   const link = (q) => { const p = new URLSearchParams(q); if (source) p.set("src", source); const s = p.toString(); return s ? "?" + s : "?"; };
   document.querySelectorAll("[data-home]").forEach(a => a.href = link({}));
 
+  const SALE = STORE.sale || null;
+  const saleOn = (() => {
+    if (!SALE) return false;
+    if (params.get("sale") === "preview") return true;
+    const now = new Date();
+    return now >= new Date(SALE.start + "T00:00:00") && now <= new Date(SALE.end + "T23:59:59");
+  })();
+  const sp = p => saleOn ? Math.round(p.price * (100 - SALE.percent)) / 100 : p.price;
+
   const LIVE = PRODUCTS.filter(p => !p.hidden);
   const byId = id => LIVE.find(p => p.id === id);
   const bundleValue = p => (p.bundleOf || []).reduce((t, id) => t + (byId(id)?.price || 0), 0);
@@ -618,6 +630,7 @@ const PRODUCTS = [
     try {
       const u = new URL(url);
       if (source) u.searchParams.set("client_reference_id", source);
+      if (saleOn && SALE.code) u.searchParams.set("prefilled_promo_code", SALE.code);
       return u.toString();
     } catch(e){ return url; }
   }
@@ -635,11 +648,12 @@ const PRODUCTS = [
 
   function priceHTML(p){
     let extra = "";
-    if (p.compareAt && p.compareAt > p.price) extra += `<span class="was">${money(p.compareAt)}</span>`;
-    if (p.regularPrice && p.regularPrice > p.price) extra += `<span class="launch">Launch price · rises to ${money(p.regularPrice)}</span>`;
+    if (saleOn) extra += `<span class="was">${money(p.price)}</span><span class="launch">${esc(SALE.name)}: ${SALE.percent}% off until ${new Date(SALE.end+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"long"})}</span>`;
+    else if (p.compareAt && p.compareAt > p.price) extra += `<span class="was">${money(p.compareAt)}</span>`;
+    if (!saleOn && p.regularPrice && p.regularPrice > p.price) extra += `<span class="launch">Launch price · rises to ${money(p.regularPrice)}</span>`;
     const bv = bundleValue(p);
     if (bv > p.price) extra += `<span class="save">Save ${money(bv - p.price)} vs buying separately</span>`;
-    return `<div class="price-row"><span class="price">${money(p.price)}</span>${extra}</div>${STORE.vatNote ? `<p class="vat">${esc(STORE.vatNote)}</p>` : ""}`;
+    return `<div class="price-row"><span class="price">${money(sp(p))}</span>${extra}</div>${STORE.vatNote ? `<p class="vat">${esc(STORE.vatNote)}</p>` : ""}`;
   }
 
   function cardHTML(p){
@@ -650,7 +664,7 @@ const PRODUCTS = [
         <div class="cat">${esc(p.category)}</div>
         <h3>${esc(p.title)}</h3>
         <div class="meta">${esc(p.format||"")}</div>
-        <div class="foot"><span class="p">${money(p.price)} ${p.regularPrice > p.price ? `<span class="launch">Launch price</span>` : ""}</span><span class="go">View →</span></div>
+        <div class="foot"><span class="p">${money(sp(p))} ${saleOn ? `<span class="launch">${SALE.percent}% off</span>` : (p.regularPrice > p.price ? `<span class="launch">Launch price</span>` : "")}</span><span class="go">View →</span></div>
       </div></a>`;
   }
 
@@ -696,7 +710,7 @@ const PRODUCTS = [
 
     ${bundle ? `<section style="padding-top:0"><div class="wrap"><div class="upsell">
       <div><span class="chip">Best value</span><h3>${esc(bundle.title)}</h3>
-      <p>${money(bundle.price)}${bundleValue(bundle) > bundle.price ? ` — save ${money(bundleValue(bundle)-bundle.price)} vs buying separately` : ""}</p></div>
+      <p>${money(sp(bundle))}${bundleValue(bundle) > bundle.price ? ` — save ${money(bundleValue(bundle)-bundle.price)} vs buying separately` : ""}</p></div>
       <a class="btn" href="${link({p:bundle.id})}">View the bundle →</a>
     </div></div></section>` : ""}
 
@@ -713,7 +727,7 @@ const PRODUCTS = [
     <section class="final"><div class="wrap"><div class="box">
       <h2>Ready when you are</h2>
       <p class="sub" style="margin-bottom:0">Download in seconds and start today.</p>
-      <span class="price">${money(p.price)}</span>
+      <span class="price">${money(sp(p))}</span>
       ${STORE.vatNote ? `<p class="vat" style="margin:-14px 0 20px">${esc(STORE.vatNote)}</p>` : ""}
       <a class="btn btn-buy" ${buyAttrs(p)}>Get instant access →</a>
       <p class="legal-note" style="margin:16px auto 0">Instant download: by buying, you agree to immediate access and understand you lose your 14-day right to cancel once the download starts. See our <a href="terms.html">Terms of Sale</a> and <a href="refunds.html">Refund Policy</a>.</p>
@@ -726,7 +740,7 @@ const PRODUCTS = [
 
     // Sticky buy bar (mobile) appears once the main button scrolls away
     const st = $("#sticky");
-    st.innerHTML = `<div class="t">${esc(p.title)}<span>${money(p.price)}</span></div><a class="btn btn-buy btn-sm" ${buyAttrs(p)}>Buy now</a>`;
+    st.innerHTML = `<div class="t">${esc(p.title)}<span>${money(sp(p))}</span></div><a class="btn btn-buy btn-sm" ${buyAttrs(p)}>Buy now</a>`;
     const io = new IntersectionObserver(([e]) => st.classList.toggle("show", !e.isIntersecting && e.boundingClientRect.top < 0));
     io.observe($("#mainBuy"));
   }
@@ -740,7 +754,7 @@ const PRODUCTS = [
 
     $("#app").innerHTML = `
     <header class="hero" style="padding-bottom:20px"><div class="wrap">
-      <span class="chip">⚡ Instant downloads</span>
+      ${saleOn ? `<span class="chip" style="background:#141A2E;color:#F5B841">🔥 ${esc(SALE.name)}: ${SALE.percent}% off everything until ${new Date(SALE.end+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"long"})}</span>` : `<span class="chip">⚡ Instant downloads</span>`}
       <h1>${esc(STORE.tagline)}</h1>
       <p class="lead">${esc(STORE.intro||"Pay securely, download in seconds and keep it forever.")}</p>
     </div></header>
