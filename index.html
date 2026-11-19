@@ -608,7 +608,7 @@ const PRODUCTS = [
   $("#socials").innerHTML = Object.entries(STORE.socials).filter(([,u]) => u)
     .map(([k,u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${socialNames[k]||k}</a>`).join("");
 
-  const link = (q) => { const p = new URLSearchParams(q); if (source) p.set("src", source); const s = p.toString(); return s ? "?" + s : "?"; };
+  const link = (q) => { const p = new URLSearchParams(q); if (source) p.set("src", source); if (params.get("sale") === "preview") p.set("sale", "preview"); const s = p.toString(); return s ? "?" + s : "?"; };
   document.querySelectorAll("[data-home]").forEach(a => a.href = link({}));
 
   const SALE = STORE.sale || null;
