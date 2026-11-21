@@ -1,181 +1,181 @@
 Number: Factors vs multiples vs primes?	Factors divide into a number exactly (factors of 12: 1, 2, 3, 4, 6, 12). Multiples are in its times table. A prime has exactly two factors: 1 and itself.
 Number: List the prime numbers below 30.	2, 3, 5, 7, 11, 13, 17, 19, 23, 29 | 1 is NOT prime. 2 is the only even prime.
 Number: Square numbers to 15² and cube numbers to 5³ (plus 10³).	Squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225 | Cubes: 1, 8, 27, 64, 125, and 1000
-Number: Write 360 as a product of prime factors.	Use a factor tree: 360 = 2 × 180 = 2 × 2 × 90 … | 360 = 2³ × 3² × 5
-Number: Find the HCF and LCM of 24 and 36.	24 = 2³ × 3, 36 = 2² × 3² | HCF = 2² × 3 = 12 | LCM = 2³ × 3² = 72
-Number: Buses leave every 12 and 18 minutes. Both leave at 9:00. When do they next leave together?	LCM of 12 and 18 = 36 | 9:36
-Number: Work out 3 + 4 × 2²	BIDMAS: indices first, then ×, then + | 3 + 4 × 4 = 3 + 16 = 19
-Number: Rules for multiplying and dividing negative numbers.	Same signs → positive. Different signs → negative. | −3 × −4 = 12, −12 ÷ 4 = −3
-Number: Work out 23 × 47 and 3.6 ÷ 0.04	23 × 47 = 1081 | 3.6 ÷ 0.04 = 360 ÷ 4 = 90 (multiply both by 100 first)
-Number: Round 5.0472 to 3 significant figures and 0.006038 to 2 s.f.	5.05 and 0.0060 | Leading zeros don't count as significant figures.
-Number: Estimate (48.7 × 3.1) ÷ 0.52	Round each number to 1 significant figure: | (50 × 3) ÷ 0.5 = 150 ÷ 0.5 = 300
-Number: A length is 7.4 cm to 1 decimal place. Write its error interval.	Half of 0.1 either side: | 7.35 ≤ x < 7.45
-Number: A rectangle is 5.2 cm by 3.8 cm (both to 1 d.p.). Find the upper bound of its area. [Higher]	Use both upper bounds: 5.25 × 3.85 = 20.2125 cm²
-Number: Work out 2/3 + 3/4	Common denominator 12: 8/12 + 9/12 = 17/12 = 1 5/12
-Number: Work out 2/5 × 15/8	Multiply tops and bottoms: 30/40 = 3/4
-Number: Work out 3/4 ÷ 5/8	Keep, change, flip: 3/4 × 8/5 = 24/20 = 6/5 = 1 1/5
-Number: Work out 2 1/3 × 1 1/2	Make improper fractions first: 7/3 × 3/2 = 21/6 = 7/2 = 3 1/2
-Number: Find 3/8 of 64	Divide by the bottom, times by the top: 64 ÷ 8 × 3 = 24
-Number: Write 0.375 as a fraction in its simplest form.	375/1000 = 3/8
-Number: Write 0.454545… as a fraction. [Higher]	x = 0.4545…, 100x = 45.4545… | 100x − x: 99x = 45 | x = 45/99 = 5/11
-Number: Write 0.1666… as a fraction. [Higher]	10x = 1.666…, 100x = 16.666… | 90x = 15, x = 15/90 = 1/6
-Number: Find 35% of £240	10% = 24, 30% = 72, 5% = 12 | 35% = £84
-Number: Increase £80 by 15%	Multiplier 1.15: 80 × 1.15 = £92
-Number: A price goes from £50 to £65. What is the percentage change?	Change ÷ original × 100 | 15 ÷ 50 × 100 = 30% increase
-Number: After a 20% discount, a coat costs £64. What was the original price?	Reverse percentage: 80% = £64 | 64 ÷ 0.8 = £80
-Number: Compound interest: formula and example.	Amount = P × (1 + r/100)ⁿ | £2000 at 3% for 4 years: 2000 × 1.03⁴ = £2251.02
-Number: A car worth £12 000 loses 15% of its value each year. What is it worth after 3 years?	Multiplier 0.85: 12 000 × 0.85³ = £7369.50
-Number: Simple interest: £500 at 4% per year for 3 years.	4% of 500 = £20 per year | 20 × 3 = £60 interest, total £560
-Number: The 4 laws of indices.	am × an = am+n | am ÷ an = am−n | (am)n = amn | a0 = 1
-Number: Work out 2−3, 272/3 and 16−1/2 [Higher]	Negative = 1 over. Denominator = root. | 2−3 = 1/8 | 272/3 = (∛27)² = 3² = 9 | 16−1/2 = 1/√16 = 1/4
-Number: Write 45 000 and 0.00032 in standard form.	4.5 × 10⁴ and 3.2 × 10⁻⁴ | The first number must be between 1 and 10.
-Number: Work out (3 × 10⁴) × (5 × 10³). Give your answer in standard form.	3 × 5 = 15, 10⁴ × 10³ = 10⁷ | 15 × 10⁷ = 1.5 × 10⁸
-Number: Simplify √72 [Higher]	Find the biggest square factor: √72 = √36 × √2 = 6√2
-Number: Expand (3 + √2)(3 − √2) [Higher]	9 − 3√2 + 3√2 − 2 = 7
-Number: Rationalise the denominator of 6/√3 [Higher]	Multiply top and bottom by √3: | 6√3/3 = 2√3
-Number: A café has 3 starters and 4 mains. How many different meals (1 starter + 1 main)?	Product rule: 3 × 4 = 12
-Number: How many 4-digit codes can be made from digits 0–9 with no digit repeated? [Higher]	10 × 9 × 8 × 7 = 5040
+Number: Write 360 as a product of prime factors.	Method: Keep splitting the number into two factors until every branch ends in a prime. Then multiply the primes back together, using powers for repeats. | Use a factor tree: 360 = 2 × 180 = 2 × 2 × 90 … | 360 = 2³ × 3² × 5
+Number: Find the HCF and LCM of 24 and 36.	Method: Write both numbers as products of primes. HCF: multiply the primes they share, using the lower power. LCM: multiply every prime that appears, using the higher power. | 24 = 2³ × 3, 36 = 2² × 3² | HCF = 2² × 3 = 12 | LCM = 2³ × 3² = 72
+Number: Buses leave every 12 and 18 minutes. Both leave at 9:00. When do they next leave together?	Method: 'Happening together again' is a lowest common multiple question. Find the LCM of the two times, then add it to the start time. | LCM of 12 and 18 = 36 | 9:36
+Number: Work out 3 + 4 × 2²	Method: BIDMAS sets the order: Brackets, Indices, Division and Multiplication, then Addition and Subtraction. Do the power first, then multiply, then add. | BIDMAS: indices first, then ×, then + | 3 + 4 × 4 = 3 + 16 = 19
+Number: Rules for multiplying and dividing negative numbers.	Method: Count the negative signs: an even number of negatives gives a positive answer, an odd number gives a negative answer. | Same signs → positive. Different signs → negative. | −3 × −4 = 12, −12 ÷ 4 = −3
+Number: Work out 23 × 47 and 3.6 ÷ 0.04	Method: For the multiplication, split one number into tens and units (or use a grid) and add the parts. For dividing by a decimal, multiply both numbers by the same power of 10 until you divide by a whole number. | 23 × 47 = 1081 | 3.6 ÷ 0.04 = 360 ÷ 4 = 90 (multiply both by 100 first)
+Number: Round 5.0472 to 3 significant figures and 0.006038 to 2 s.f.	Method: Start counting at the first non-zero digit. Look at the next digit: 5 or more rounds up. Keep the zeros needed to hold the place value. | 5.05 and 0.0060 | Leading zeros don't count as significant figures.
+Number: Estimate (48.7 × 3.1) ÷ 0.52	Method: Round every number to 1 significant figure first, then do the easy calculation. Dividing by 0.5 is the same as doubling. | Round each number to 1 significant figure: | (50 × 3) ÷ 0.5 = 150 ÷ 0.5 = 300
+Number: A length is 7.4 cm to 1 decimal place. Write its error interval.	Method: The value was rounded to the nearest 0.1, so it could be up to half of 0.1 (0.05) below or above. The lower bound is included (≤) but the upper bound is not (<). | Half of 0.1 either side: | 7.35 ≤ x < 7.45
+Number: A rectangle is 5.2 cm by 3.8 cm (both to 1 d.p.). Find the upper bound of its area. [Higher]	Method: To get the biggest possible area, multiply the biggest possible lengths: add half of 0.1 to each length first, then multiply. | Use both upper bounds: 5.25 × 3.85 = 20.2125 cm²
+Number: Work out 2/3 + 3/4	Method: You can only add fractions with the same denominator. Find a common denominator, change each fraction to match, then add the numerators. | Common denominator 12: 8/12 + 9/12 = 17/12 = 1 5/12
+Number: Work out 2/5 × 15/8	Method: Multiply the numerators together and the denominators together, then simplify. (You can also cancel common factors before multiplying.) | Multiply tops and bottoms: 30/40 = 3/4
+Number: Work out 3/4 ÷ 5/8	Method: Dividing by a fraction is the same as multiplying by its reciprocal. Keep the first fraction, change ÷ to ×, flip the second, then multiply. | Keep, change, flip: 3/4 × 8/5 = 24/20 = 6/5 = 1 1/5
+Number: Work out 2 1/3 × 1 1/2	Method: Mixed numbers cannot be multiplied directly. Change each to an improper fraction (whole × denominator + numerator), multiply, then change back. | Make improper fractions first: 7/3 × 3/2 = 21/6 = 7/2 = 3 1/2
+Number: Find 3/8 of 64	Method: 'Of' means multiply. Dividing by the denominator finds one eighth; multiplying by the numerator gives three eighths. | Divide by the bottom, times by the top: 64 ÷ 8 × 3 = 24
+Number: Write 0.375 as a fraction in its simplest form.	Method: Each decimal place is a power of 10, so 0.375 is 375 thousandths. Write it over 1000, then divide top and bottom by their HCF. | 375/1000 = 3/8
+Number: Write 0.454545… as a fraction. [Higher]	Method: Call the decimal x. Multiply by 10 to the power of the repeating length (two digits repeat, so ×100), then subtract x so the recurring part cancels. Solve and simplify. | x = 0.4545…, 100x = 45.4545… | 100x − x: 99x = 45 | x = 45/99 = 5/11
+Number: Write 0.1666… as a fraction. [Higher]	Method: Only the 6 repeats, so make two numbers whose recurring parts line up (10x and 100x). Subtracting them removes the recurring part. Solve and simplify. | 10x = 1.666…, 100x = 16.666… | 90x = 15, x = 15/90 = 1/6
+Number: Find 35% of £240	Method: Build the percentage from easy pieces: 10% is ÷10, so 30% is 3 × 10%, and 5% is half of 10%. Add the pieces. | 10% = 24, 30% = 72, 5% = 12 | 35% = £84
+Number: Increase £80 by 15%	Method: An increase of 15% means you end with 115% of the amount. Write that as a multiplier (1.15) and multiply once. | Multiplier 1.15: 80 × 1.15 = £92
+Number: A price goes from £50 to £65. What is the percentage change?	Method: Percentage change always compares the change with the ORIGINAL value: change ÷ original × 100. | Change ÷ original × 100 | 15 ÷ 50 × 100 = 30% increase
+Number: After a 20% discount, a coat costs £64. What was the original price?	Method: After a 20% discount the price is 80% of the original. Divide by the multiplier (0.8) to undo it. Never just add 20% back on. | Reverse percentage: 80% = £64 | 64 ÷ 0.8 = £80
+Number: Compound interest: formula and example.	Method: Each year the amount is multiplied by the same multiplier (1 + r/100). For n years, use that multiplier to the power n. | Amount = P × (1 + r/100)ⁿ | £2000 at 3% for 4 years: 2000 × 1.03⁴ = £2251.02
+Number: A car worth £12 000 loses 15% of its value each year. What is it worth after 3 years?	Method: Losing 15% leaves 85%, so the multiplier is 0.85. It happens each year, so raise it to the power of the number of years. | Multiplier 0.85: 12 000 × 0.85³ = £7369.50
+Number: Simple interest: £500 at 4% per year for 3 years.	Method: Simple interest is the same amount every year, worked out on the original sum only. Find one year's interest, then multiply by the years. | 4% of 500 = £20 per year | 20 × 3 = £60 interest, total £560
+Number: The 4 laws of indices.	aᵐ × aⁿ = aᵐ⁺ⁿ | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | (aᵐ)ⁿ = aᵐⁿ | a⁰ = 1
+Number: Work out 2⁻³, 27^(2/3) and 16^(−1/2) [Higher]	Method: A negative power means 'one over'. The denominator of a fractional power is a root and the numerator is a power. Do the root first to keep the numbers small. | Negative = 1 over. Denominator = root. | 2⁻³ = 1/8 | 27^(2/3) = (∛27)² = 3² = 9 | 16^(−1/2) = 1/√16 = 1/4
+Number: Write 45 000 and 0.00032 in standard form.	Method: Move the decimal point until the first number is between 1 and 10. The power of 10 counts how many places it moved: positive for big numbers, negative for small ones. | 4.5 × 10⁴ and 3.2 × 10⁻⁴ | The first number must be between 1 and 10.
+Number: Work out (3 × 10⁴) × (5 × 10³). Give your answer in standard form.	Method: Multiply the number parts, and add the powers of 10. If the number part is 10 or more, adjust it and add 1 to the power. | 3 × 5 = 15, 10⁴ × 10³ = 10⁷ | 15 × 10⁷ = 1.5 × 10⁸
+Number: Simplify √72 [Higher]	Method: Find the largest square number that divides into the number, split the root into two roots, and simplify the square one. | Find the biggest square factor: √72 = √36 × √2 = 6√2
+Number: Expand (3 + √2)(3 − √2) [Higher]	Method: Expand like any two brackets (each term times each term). √2 × √2 = 2, and the middle terms cancel. | 9 − 3√2 + 3√2 − 2 = 7
+Number: Rationalise the denominator of 6/√3 [Higher]	Method: Multiplying top and bottom by the same root keeps the value the same, and √3 × √3 = 3 removes the root from the bottom. Then simplify. | Multiply top and bottom by √3: | 6√3/3 = 2√3
+Number: A café has 3 starters and 4 mains. How many different meals (1 starter + 1 main)?	Method: If there are a ways to make one choice and b ways to make another, there are a × b ways to make both (the product rule). | Product rule: 3 × 4 = 12
+Number: How many 4-digit codes can be made from digits 0–9 with no digit repeated? [Higher]	Method: Fill the positions one at a time: 10 choices for the first digit, then one fewer each time because digits cannot repeat. Multiply the choices. | 10 × 9 × 8 × 7 = 5040
 Algebra: Expression vs equation vs formula vs identity?	Expression: no equals sign (3x + 2). Equation: can be solved (3x + 2 = 11). Formula: links variables (A = πr²). Identity: true for all values, uses ≡.
-Algebra: Simplify 3a + 5b − a + 2b	Collect like terms: 2a + 7b
-Algebra: If a = 3 and b = −2, find 2a² − 3b	2 × 9 − 3 × (−2) = 18 + 6 = 24
-Algebra: Expand and simplify (x + 4)(x − 7)	FOIL: x² − 7x + 4x − 28 | x² − 3x − 28
-Algebra: Expand (x + 5)²	Write it twice: (x + 5)(x + 5) | x² + 10x + 25 | Not x² + 25!
-Algebra: Expand (x + 1)(x + 2)(x − 3) [Higher]	First two: x² + 3x + 2 | Then × (x − 3): x³ − 7x − 6
-Algebra: Factorise fully 6x²y + 9xy²	HCF of everything is 3xy | 3xy(2x + 3y)
-Algebra: Factorise x² + 7x + 12	Multiply to 12, add to 7: 3 and 4 | (x + 3)(x + 4)
-Algebra: Factorise x² − 49	Difference of two squares: | (x + 7)(x − 7)
-Algebra: Factorise 6x² + x − 2 [Higher]	a × c = −12. Numbers: +4 and −3 | 6x² + 4x − 3x − 2 = 2x(3x + 2) − 1(3x + 2) | (2x − 1)(3x + 2)
-Algebra: Solve 5x − 8 = 2x + 13	3x − 8 = 13 → 3x = 21 → x = 7
-Algebra: Solve 4(x + 3) = 2x − 6	4x + 12 = 2x − 6 → 2x = −18 → x = −9
-Algebra: Solve (x + 5)/3 = 6	× 3: x + 5 = 18 → x = 13
-Algebra: Make t the subject of v = u + at	v − u = at → t = (v − u)/a
-Algebra: Make x the subject of y = (2x + 3)/(x − 1) [Higher]	y(x − 1) = 2x + 3 → xy − y = 2x + 3 | xy − 2x = y + 3 → x(y − 2) = y + 3 | x = (y + 3)/(y − 2)
-Algebra: Solve x² − 5x + 6 = 0	(x − 2)(x − 3) = 0 | x = 2 or x = 3
-Algebra: The quadratic formula (for ax² + bx + c = 0). [Higher]	x = (−b ± √(b² − 4ac)) / 2a
-Algebra: Solve 2x² − 3x − 4 = 0. Give answers to 2 d.p. [Higher]	a = 2, b = −3, c = −4 | x = (3 ± √41)/4 | x = 2.35 or x = −0.85
-Algebra: Write x² − 8x + 5 in the form (x + p)² + q [Higher]	Halve −8: (x − 4)² = x² − 8x + 16 | 16 − 11 = 5, so (x − 4)² − 11 | Turning point: (4, −11)
-Algebra: Solve 3x + 2y = 12 and x + 2y = 8	Same signs, subtract: 2x = 4, x = 2 | 2 + 2y = 8 → x = 2, y = 3
-Algebra: Solve y = 2x − 1 and y = x² − 4 [Higher]	x² − 4 = 2x − 1 → x² − 2x − 3 = 0 | (x − 3)(x + 1) = 0 | x = 3, y = 5 and x = −1, y = −3
-Algebra: Solve 3(x − 2) < 12	3x − 6 < 12 → 3x < 18 → x < 6
-Algebra: List the integers that satisfy −3 < 2x + 1 ≤ 9	−4 < 2x ≤ 8 → −2 < x ≤ 4 | −1, 0, 1, 2, 3, 4
-Algebra: What happens to an inequality when you × or ÷ by a negative number?	The sign flips. −2x > 6 → x < −3
-Algebra: Solve x² − 2x − 15 < 0 [Higher]	Roots: (x − 5)(x + 3) = 0 → −3 and 5 | U-shape is below the axis between the roots | −3 < x < 5
-Algebra: Find the nth term of 7, 10, 13, 16, …	Goes up 3 → 3n. Zero term = 7 − 3 = 4 | 3n + 4
-Algebra: Is 100 a term in the sequence 3n + 4?	3n + 4 = 100 → 3n = 96 → n = 32 | Yes, it's the 32nd term (n is a whole number).
-Algebra: Find the nth term of 4, 9, 18, 31, … [Higher]	2nd difference = 4 → 2n² | Sequence − 2n² = 2, 1, 0, −1 = −n + 3 | 2n² − n + 3
-Algebra: What is a geometric sequence? Give the next term of 3, 6, 12, 24	Each term is multiplied by the same number (common ratio). | Ratio 2, next term 48
-Algebra: Simplify (x² − 9)/(x² + x − 6) [Higher]	Factorise both: (x + 3)(x − 3) / (x + 3)(x − 2) | (x − 3)/(x − 2)
-Algebra: Prove that the sum of two consecutive odd numbers is a multiple of 4. [Higher]	Odd numbers: 2n + 1 and 2n + 3 | Sum = 4n + 4 = 4(n + 1), a multiple of 4 ∎
-Algebra: Show that (x + 3)² − 9 ≡ x(x + 6)	LHS = x² + 6x + 9 − 9 = x² + 6x | RHS = x² + 6x ✓
-Algebra: xₙ₊₁ = ∛(xₙ + 5) and x₀ = 2. Find x₁ and x₂ to 4 d.p. [Higher]	x₁ = ∛7 = 1.9129 | x₂ = ∛(1.9129… + 5) = 1.9050 | Use ANS on your calculator.
+Algebra: Simplify 3a + 5b − a + 2b	Method: Like terms have exactly the same letters. Add or subtract their numbers, keeping each term's sign in front of it. | Collect like terms: 2a + 7b
+Algebra: If a = 3 and b = −2, find 2a² − 3b	Method: Put each number in place of its letter, in brackets. Square before multiplying, and take care with the negative sign. | 2 × 9 − 3 × (−2) = 18 + 6 = 24
+Algebra: Expand and simplify (x + 4)(x − 7)	Method: Multiply every term in the first bracket by every term in the second (First, Outer, Inner, Last), then collect the x terms. | FOIL: x² − 7x + 4x − 28 | x² − 3x − 28
+Algebra: Expand (x + 5)²	Method: Squaring a bracket means writing it out twice and multiplying. The middle term comes from the two 'outer and inner' products. | Write it twice: (x + 5)(x + 5) | x² + 10x + 25 | Not x² + 25!
+Algebra: Expand (x + 1)(x + 2)(x − 3) [Higher]	Method: Expand two brackets first and simplify. Then multiply each term of that answer by each term of the third bracket, and collect like terms. | First two: x² + 3x + 2 | Then × (x − 3): x³ − 7x − 6
+Algebra: Factorise fully 6x²y + 9xy²	Method: Find the highest common factor of the numbers AND the letters, take it outside the bracket, then divide each term by it. | HCF of everything is 3xy | 3xy(2x + 3y)
+Algebra: Factorise x² + 7x + 12	Method: Look for two numbers that multiply to the constant (12) and add to the x coefficient (7). They become the numbers in the brackets. | Multiply to 12, add to 7: 3 and 4 | (x + 3)(x + 4)
+Algebra: Factorise x² − 49	Method: Something squared minus something squared always factorises as (a + b)(a − b). Square-root each part. | Difference of two squares: | (x + 7)(x − 7)
+Algebra: Factorise 6x² + x − 2 [Higher]	Method: Multiply a × c. Find two numbers that multiply to that and add to b, split the middle term with them, then factorise in pairs. | a × c = −12. Numbers: +4 and −3 | 6x² + 4x − 3x − 2 = 2x(3x + 2) − 1(3x + 2) | (2x − 1)(3x + 2)
+Algebra: Solve 5x − 8 = 2x + 13	Method: Get the x terms on one side and the numbers on the other by doing the same to both sides, then divide. | 3x − 8 = 13 → 3x = 21 → x = 7
+Algebra: Solve 4(x + 3) = 2x − 6	Method: Expand the bracket first, then collect the x terms on one side and the numbers on the other. | 4x + 12 = 2x − 6 → 2x = −18 → x = −9
+Algebra: Solve (x + 5)/3 = 6	Method: Undo the division first by multiplying both sides by 3, then undo the + 5. | × 3: x + 5 = 18 → x = 13
+Algebra: Make t the subject of v = u + at	Method: Treat it like solving an equation: undo whatever is attached to t, step by step, doing the same to both sides. | v − u = at → t = (v − u)/a
+Algebra: Make x the subject of y = (2x + 3)/(x − 1) [Higher]	Method: Clear the fraction, expand, then get every x term on one side. Factorise x out so it appears once, then divide. | y(x − 1) = 2x + 3 → xy − y = 2x + 3 | xy − 2x = y + 3 → x(y − 2) = y + 3 | x = (y + 3)/(y − 2)
+Algebra: Solve x² − 5x + 6 = 0	Method: Factorise into two brackets. If two things multiply to make 0, one of them must be 0, so set each bracket equal to 0. | (x − 2)(x − 3) = 0 | x = 2 or x = 3
+Algebra: The quadratic formula (for ax² + bx + c = 0). [Higher]	Method: Use it when the quadratic will not factorise. Write the equation as ax² + bx + c = 0 first, and identify a, b and c with their signs. | x = (−b ± √(b² − 4ac)) / 2a
+Algebra: Solve 2x² − 3x − 4 = 0. Give answers to 2 d.p. [Higher]	Method: Write down a, b and c with signs, substitute carefully into the formula (use brackets for negatives), then work out the + and − answers separately. | a = 2, b = −3, c = −4 | x = (3 ± √41)/4 | x = 2.35 or x = −0.85
+Algebra: Write x² − 8x + 5 in the form (x + p)² + q [Higher]	Method: Halve the x coefficient to get the number in the bracket. Squaring the bracket gives an extra number, so subtract it to keep the expression the same. | Halve −8: (x − 4)² = x² − 8x + 16 | 16 − 11 = 5, so (x − 4)² − 11 | Turning point: (4, −11)
+Algebra: Solve 3x + 2y = 12 and x + 2y = 8	Method: Make one letter's coefficients match. Same signs: subtract the equations to remove it; different signs: add. Solve, then substitute back to find the other letter. | Same signs, subtract: 2x = 4, x = 2 | 2 + 2y = 8 → x = 2, y = 3
+Algebra: Solve y = 2x − 1 and y = x² − 4 [Higher]	Method: Both equal y, so set them equal to each other. Rearrange to = 0, solve the quadratic, then substitute each x back to find its y. | x² − 4 = 2x − 1 → x² − 2x − 3 = 0 | (x − 3)(x + 1) = 0 | x = 3, y = 5 and x = −1, y = −3
+Algebra: Solve 3(x − 2) < 12	Method: Solve it like an equation, but keep the inequality sign. Expand, then do the same to both sides. | 3x − 6 < 12 → 3x < 18 → x < 6
+Algebra: List the integers that satisfy −3 < 2x + 1 ≤ 9	Method: Do the same thing to all three parts: subtract 1, then divide by 2. Then list the whole numbers in the range, checking whether each end is included. | −4 < 2x ≤ 8 → −2 < x ≤ 4 | −1, 0, 1, 2, 3, 4
+Algebra: What happens to an inequality when you × or ÷ by a negative number?	Method: Multiplying or dividing by a negative reverses the order of numbers (3 > 2 but −3 < −2), so the inequality sign must flip. | The sign flips. −2x > 6 → x < −3
+Algebra: Solve x² − 2x − 15 < 0 [Higher]	Method: Find where the quadratic equals 0 (the roots). A positive x² graph is U-shaped, so it is below zero BETWEEN the roots. | Roots: (x − 5)(x + 3) = 0 → −3 and 5 | U-shape is below the axis between the roots | −3 < x < 5
+Algebra: Find the nth term of 7, 10, 13, 16, …	Method: The common difference tells you the multiple of n. Then find the 'zeroth term' by going back one step from the first term. | Goes up 3 → 3n. Zero term = 7 − 3 = 4 | 3n + 4
+Algebra: Is 100 a term in the sequence 3n + 4?	Method: Set the nth term equal to the number and solve. If n is a whole number, it is in the sequence. | 3n + 4 = 100 → 3n = 96 → n = 32 | Yes, it's the 32nd term (n is a whole number).
+Algebra: Find the nth term of 4, 9, 18, 31, … [Higher]	Method: Find the second difference and halve it to get the n² coefficient. Subtract that n² part from the sequence, and what is left is a linear sequence. | 2nd difference = 4 → 2n² | Sequence − 2n² = 2, 1, 0, −1 = −n + 3 | 2n² − n + 3
+Algebra: What is a geometric sequence? Give the next term of 3, 6, 12, 24	Method: Divide any term by the one before it to find the common ratio, then multiply the last term by it. | Each term is multiplied by the same number (common ratio). | Ratio 2, next term 48
+Algebra: Simplify (x² − 9)/(x² + x − 6) [Higher]	Method: You can only cancel whole factors, never single terms. Factorise top and bottom fully, then cancel the bracket they share. | Factorise both: (x + 3)(x − 3) / (x + 3)(x − 2) | (x − 3)/(x − 2)
+Algebra: Prove that the sum of two consecutive odd numbers is a multiple of 4. [Higher]	Method: Write the numbers algebraically (2n + 1 is always odd). Add them, then factorise to show 4 is a factor. | Odd numbers: 2n + 1 and 2n + 3 | Sum = 4n + 4 = 4(n + 1), a multiple of 4 ∎
+Algebra: Show that (x + 3)² − 9 ≡ x(x + 6)	Method: Expand and simplify the left-hand side, simplify the right-hand side, and show they are exactly the same. | LHS = x² + 6x + 9 − 9 = x² + 6x | RHS = x² + 6x ✓
+Algebra: xₙ₊₁ = ∛(xₙ + 5) and x₀ = 2. Find x₁ and x₂ to 4 d.p. [Higher]	Method: Substitute the starting value to get x₁, then put x₁ back in to get x₂. Keep full calculator values (ANS) and only round at the end. | x₁ = ∛7 = 1.9129 | x₂ = ∛(1.9129… + 5) = 1.9050 | Use ANS on your calculator.
 Graphs & Functions: What do m and c mean in y = mx + c?	m = gradient (steepness). c = y-intercept (where it crosses the y-axis).
-Graphs & Functions: Find the gradient between (1, 3) and (4, 12).	Gradient = change in y ÷ change in x | (12 − 3)/(4 − 1) = 9/3 = 3
-Graphs & Functions: Find the equation of the line with gradient 3 through (2, 5).	5 = 3 × 2 + c → c = −1 | y = 3x − 1
-Graphs & Functions: Find the midpoint of (2, 3) and (8, 11).	Average the coordinates: ((2 + 8)/2, (3 + 11)/2) = (5, 7)
+Graphs & Functions: Find the gradient between (1, 3) and (4, 12).	Method: Gradient = change in y ÷ change in x (rise over run). Subtract the coordinates in the same order on top and bottom. | Gradient = change in y ÷ change in x | (12 − 3)/(4 − 1) = 9/3 = 3
+Graphs & Functions: Find the equation of the line with gradient 3 through (2, 5).	Method: Put the gradient into y = mx + c, then substitute the point's x and y to find c. | 5 = 3 × 2 + c → c = −1 | y = 3x − 1
+Graphs & Functions: Find the midpoint of (2, 3) and (8, 11).	Method: The midpoint is halfway, so take the average of the x-coordinates and the average of the y-coordinates. | Average the coordinates: ((2 + 8)/2, (3 + 11)/2) = (5, 7)
 Graphs & Functions: What do parallel lines have in common?	The same gradient. y = 2x + 1 and y = 2x − 5 are parallel.
-Graphs & Functions: Find the line perpendicular to y = 2x + 1 through (4, 1). [Higher]	Perpendicular gradient = negative reciprocal = −½ | 1 = −½ × 4 + c → c = 3 | y = −½x + 3
+Graphs & Functions: Find the line perpendicular to y = 2x + 1 through (4, 1). [Higher]	Method: Perpendicular gradients multiply to −1, so flip the gradient and change its sign. Then substitute the point to find c. | Perpendicular gradient = negative reciprocal = −½ | 1 = −½ × 4 + c → c = 3 | y = −½x + 3
 Graphs & Functions: Describe the shapes of quadratic, cubic and reciprocal graphs.	Quadratic (x²): U-shape (∩ if negative). Cubic (x³): S-shape. Reciprocal (1/x): two curves that never touch the axes.
-Graphs & Functions: For y = x² − 6x + 8, find the roots, y-intercept and turning point.	Roots: (x − 2)(x − 4) → x = 2, 4 | y-intercept: 8 | Turning point: (3, −1)
-Graphs & Functions: How do you solve x² − 2x − 3 = 0 using a graph?	Draw y = x² − 2x − 3 and read off where it crosses the x-axis: x = −1 and x = 3
+Graphs & Functions: For y = x² − 6x + 8, find the roots, y-intercept and turning point.	Method: Roots: factorise and set to 0. y-intercept: put x = 0. The turning point is halfway between the roots; substitute that x to find y. | Roots: (x − 2)(x − 4) → x = 2, 4 | y-intercept: 8 | Turning point: (3, −1)
+Graphs & Functions: How do you solve x² − 2x − 3 = 0 using a graph?	Method: The solutions are where y = 0, which is where the curve crosses the x-axis. | Draw y = x² − 2x − 3 and read off where it crosses the x-axis: x = −1 and x = 3
 Graphs & Functions: Describe the graph of y = 2ˣ [Higher]	Exponential: passes through (0, 1), increases faster and faster, never touches the x-axis.
 Graphs & Functions: Equation of a circle centred at the origin. [Higher]	x² + y² = r² | x² + y² = 25 has radius 5
-Graphs & Functions: Find the tangent to x² + y² = 25 at the point (3, 4). [Higher]	Radius gradient = 4/3, so tangent gradient = −3/4 | 4 = −¾ × 3 + c → c = 25/4 | y = −¾x + 25/4
-Graphs & Functions: f(x) = 2x + 3. Find f(4) and f⁻¹(x). [Higher]	f(4) = 8 + 3 = 11 | y = 2x + 3 → x = (y − 3)/2 | f⁻¹(x) = (x − 3)/2
-Graphs & Functions: f(x) = 2x + 3 and g(x) = x². Find fg(x) and gf(2). [Higher]	fg(x) = f(x²) = 2x² + 3 | gf(2) = g(7) = 49 | Do the function nearest x first.
+Graphs & Functions: Find the tangent to x² + y² = 25 at the point (3, 4). [Higher]	Method: A tangent is perpendicular to the radius at that point. Find the radius gradient from the centre (0, 0), use the negative reciprocal, then find c. | Radius gradient = 4/3, so tangent gradient = −3/4 | 4 = −¾ × 3 + c → c = 25/4 | y = −¾x + 25/4
+Graphs & Functions: f(x) = 2x + 3. Find f(4) and f⁻¹(x). [Higher]	Method: f(4): substitute 4. Inverse: write y = f(x), rearrange to make x the subject, then swap x for y. | f(4) = 8 + 3 = 11 | y = 2x + 3 → x = (y − 3)/2 | f⁻¹(x) = (x − 3)/2
+Graphs & Functions: f(x) = 2x + 3 and g(x) = x². Find fg(x) and gf(2). [Higher]	Method: Work from the inside out: the function next to x is done first, and its output goes into the other function. | fg(x) = f(x²) = 2x² + 3 | gf(2) = g(7) = 49 | Do the function nearest x first.
 Graphs & Functions: Graph transformations: y = f(x) + a, f(x + a), −f(x), f(−x) [Higher]	f(x) + a: up a | f(x + a): LEFT a | −f(x): reflect in x-axis | f(−x): reflect in y-axis
 Graphs & Functions: What do the gradient and area under a velocity–time graph show? [Higher]	Gradient = acceleration (use a tangent on a curve). Area = distance travelled (split into trapeziums to estimate).
 Graphs & Functions: A distance–time graph has a horizontal section. What does it mean?	The object is stationary (not moving). The gradient is speed.
-Ratio & Proportion: Simplify 24 : 36	Divide by HCF 12: 2 : 3
-Ratio & Proportion: Share £60 in the ratio 2 : 3	5 parts, 1 part = £12 | £24 and £36
-Ratio & Proportion: Ages are in the ratio 3 : 5. The difference is 18 years. Find both ages.	Difference = 2 parts = 18, so 1 part = 9 | 27 and 45
-Ratio & Proportion: Boys : girls = 3 : 5. What fraction are girls?	Total 8 parts: 5/8
-Ratio & Proportion: Best buy: 500 g for £2.40 or 750 g for £3.45?	Per 100 g: 48p vs 46p | 750 g is better value
-Ratio & Proportion: 5 pens cost £3.50. How much do 8 pens cost?	1 pen = 70p | 8 × 70p = £5.60
-Ratio & Proportion: 6 workers take 10 days to build a wall. How long would 4 workers take?	Inverse proportion: 6 × 10 = 60 worker-days | 60 ÷ 4 = 15 days
-Ratio & Proportion: y is proportional to x². y = 12 when x = 2. Find y when x = 5. [Higher]	y = kx² → 12 = 4k → k = 3 | y = 3 × 25 = 75
-Ratio & Proportion: y is inversely proportional to x. y = 4 when x = 6. Find y when x = 8. [Higher]	y = k/x → k = 24 | y = 24/8 = 3
+Ratio & Proportion: Simplify 24 : 36	Method: Divide both parts by their highest common factor until no number divides both. | Divide by HCF 12: 2 : 3
+Ratio & Proportion: Share £60 in the ratio 2 : 3	Method: Add the ratio parts to find the total parts, find the value of one part, then multiply by each share. | 5 parts, 1 part = £12 | £24 and £36
+Ratio & Proportion: Ages are in the ratio 3 : 5. The difference is 18 years. Find both ages.	Method: The difference in the ratio (5 − 3 = 2 parts) matches the real difference, so use it to find one part. | Difference = 2 parts = 18, so 1 part = 9 | 27 and 45
+Ratio & Proportion: Boys : girls = 3 : 5. What fraction are girls?	Method: The fraction is that group's parts over the TOTAL parts, not over the other group's parts. | Total 8 parts: 5/8
+Ratio & Proportion: Best buy: 500 g for £2.40 or 750 g for £3.45?	Method: Compare like with like: work out the cost of the same amount (100 g) for each, then pick the cheaper. | Per 100 g: 48p vs 46p | 750 g is better value
+Ratio & Proportion: 5 pens cost £3.50. How much do 8 pens cost?	Method: Direct proportion: find the cost of one, then multiply by how many you need (the unitary method). | 1 pen = 70p | 8 × 70p = £5.60
+Ratio & Proportion: 6 workers take 10 days to build a wall. How long would 4 workers take?	Method: Fewer workers take longer (inverse proportion). Find the total work (workers × days), then share it between the new number of workers. | Inverse proportion: 6 × 10 = 60 worker-days | 60 ÷ 4 = 15 days
+Ratio & Proportion: y is proportional to x². y = 12 when x = 2. Find y when x = 5. [Higher]	Method: Write the relationship with a constant k, use the given pair to find k, then use the formula for the new value. | y = kx² → 12 = 4k → k = 3 | y = 3 × 25 = 75
+Ratio & Proportion: y is inversely proportional to x. y = 4 when x = 6. Find y when x = 8. [Higher]	Method: Inversely proportional means y = k/x. Find k from the pair you are given, then substitute the new x. | y = k/x → k = 24 | y = 24/8 = 3
 Ratio & Proportion: Speed, density and pressure formulas.	Speed = distance ÷ time | Density = mass ÷ volume | Pressure = force ÷ area
-Ratio & Proportion: A car travels 150 km in 2 hours 30 minutes. Find its average speed.	2 h 30 min = 2.5 h | 150 ÷ 2.5 = 60 km/h
-Ratio & Proportion: A metal block has mass 400 g and volume 50 cm³. Find its density.	400 ÷ 50 = 8 g/cm³
-Ratio & Proportion: Convert 3.5 m² to cm² and 2.4 litres to cm³.	1 m² = 100 × 100 = 10 000 cm² → 35 000 cm² | 1 litre = 1000 cm³ → 2400 cm³
-Ratio & Proportion: A map has scale 1 : 25 000. Two places are 4 cm apart. How far is that in real life?	4 × 25 000 = 100 000 cm = 1 km
-Ratio & Proportion: £1 = €1.15. Convert £200 to euros and €92 to pounds.	£200 × 1.15 = €230 | €92 ÷ 1.15 = £80
-Ratio & Proportion: Two similar shapes have length scale factor k. What are the area and volume scale factors? [Higher]	Area: k². Volume: k³. | Lengths × 2 → area × 4, volume × 8
-Ratio & Proportion: Two similar cylinders have volumes 54 cm³ and 16 cm³. Find the length scale factor. [Higher]	Volume SF = 16/54 = 8/27 | Length SF = ∛(8/27) = 2/3
-Ratio & Proportion: Convert 72 km/h to m/s.	72 000 m ÷ 3600 s = 20 m/s
+Ratio & Proportion: A car travels 150 km in 2 hours 30 minutes. Find its average speed.	Method: Speed = distance ÷ time, with time as a decimal of an hour. 30 minutes is 0.5 hours, not 0.3. | 2 h 30 min = 2.5 h | 150 ÷ 2.5 = 60 km/h
+Ratio & Proportion: A metal block has mass 400 g and volume 50 cm³. Find its density.	Method: Density = mass ÷ volume. The units come from the units you divide (g ÷ cm³ = g/cm³). | 400 ÷ 50 = 8 g/cm³
+Ratio & Proportion: Convert 3.5 m² to cm² and 2.4 litres to cm³.	Method: Area units are squared, so square the length conversion (100 × 100). For capacity, 1 litre = 1000 cm³. | 1 m² = 100 × 100 = 10 000 cm² → 35 000 cm² | 1 litre = 1000 cm³ → 2400 cm³
+Ratio & Proportion: A map has scale 1 : 25 000. Two places are 4 cm apart. How far is that in real life?	Method: Every 1 cm on the map is 25 000 cm in real life, so multiply. Then convert cm to m (÷100) and m to km (÷1000). | 4 × 25 000 = 100 000 cm = 1 km
+Ratio & Proportion: £1 = €1.15. Convert £200 to euros and €92 to pounds.	Method: Pounds to euros: multiply by the rate. Euros to pounds: divide by it (it should give fewer pounds than euros). | £200 × 1.15 = €230 | €92 ÷ 1.15 = £80
+Ratio & Proportion: Two similar shapes have length scale factor k. What are the area and volume scale factors? [Higher]	Method: Areas have two dimensions, so the scale factor is squared; volumes have three, so it is cubed. | Area: k². Volume: k³. | Lengths × 2 → area × 4, volume × 8
+Ratio & Proportion: Two similar cylinders have volumes 54 cm³ and 16 cm³. Find the length scale factor. [Higher]	Method: Find the volume scale factor by dividing the volumes (new ÷ old), then cube-root it to get the length scale factor. | Volume SF = 16/54 = 8/27 | Length SF = ∛(8/27) = 2/3
+Ratio & Proportion: Convert 72 km/h to m/s.	Method: Change km to m (× 1000) and hours to seconds (× 3600), then divide. | 72 000 m ÷ 3600 s = 20 m/s
 Geometry & Measures: Angle facts: straight line, point, triangle, quadrilateral.	Straight line: 180° | Around a point: 360° | Triangle: 180° | Quadrilateral: 360°
 Geometry & Measures: Name the angle rules for parallel lines.	Alternate angles are equal (Z). Corresponding angles are equal (F). Co-interior angles add to 180° (C). Vertically opposite angles are equal.
-Geometry & Measures: An isosceles triangle has a top angle of 40°. Find the base angles.	(180 − 40) ÷ 2 = 70° each
+Geometry & Measures: An isosceles triangle has a top angle of 40°. Find the base angles.	Method: Angles in a triangle add to 180°. Subtract the top angle, and share what is left equally between the two equal base angles. | (180 − 40) ÷ 2 = 70° each
 Geometry & Measures: Sum of interior angles of a polygon with n sides.	(n − 2) × 180° | Hexagon: 4 × 180 = 720°
-Geometry & Measures: Find the interior angle of a regular octagon.	Exterior = 360 ÷ 8 = 45° | Interior = 180 − 45 = 135°
-Geometry & Measures: A regular polygon has exterior angles of 24°. How many sides?	360 ÷ 24 = 15 sides
+Geometry & Measures: Find the interior angle of a regular octagon.	Method: Exterior angles of any polygon add to 360°, so for a regular one divide 360 by the sides. Interior + exterior = 180°. | Exterior = 360 ÷ 8 = 45° | Interior = 180 − 45 = 135°
+Geometry & Measures: A regular polygon has exterior angles of 24°. How many sides?	Method: All exterior angles add to 360°, so divide 360 by one exterior angle to count the sides. | 360 ÷ 24 = 15 sides
 Geometry & Measures: Properties of a parallelogram, rhombus and kite.	Parallelogram: opposite sides parallel and equal, opposite angles equal. Rhombus: all sides equal, diagonals cross at 90°. Kite: two pairs of adjacent equal sides, one line of symmetry.
 Geometry & Measures: Area of a rectangle, triangle, parallelogram and trapezium.	Rectangle: l × w | Triangle: ½ × b × h | Parallelogram: b × h | Trapezium: ½(a + b)h
-Geometry & Measures: A trapezium has parallel sides 5 cm and 9 cm and height 4 cm. Find its area.	½ × (5 + 9) × 4 = 28 cm²
+Geometry & Measures: A trapezium has parallel sides 5 cm and 9 cm and height 4 cm. Find its area.	Method: Add the parallel sides, halve, then multiply by the perpendicular height. | ½ × (5 + 9) × 4 = 28 cm²
 Geometry & Measures: Circle: area and circumference formulas.	Area = πr² | Circumference = πd = 2πr
-Geometry & Measures: A circle has radius 6 cm. Find its area and circumference in terms of π.	Area = π × 36 = 36π cm² | Circumference = 2 × π × 6 = 12π cm
+Geometry & Measures: A circle has radius 6 cm. Find its area and circumference in terms of π.	Method: Use r = 6 in each formula and leave π as a letter, as the question asks 'in terms of π'. | Area = π × 36 = 36π cm² | Circumference = 2 × π × 6 = 12π cm
 Geometry & Measures: Arc length and sector area formulas. [Higher]	Arc length = θ/360 × 2πr | Sector area = θ/360 × πr²
-Geometry & Measures: Find the area of a sector with radius 10 cm and angle 72°. [Higher]	72/360 × π × 100 = 20π ≈ 62.8 cm²
+Geometry & Measures: Find the area of a sector with radius 10 cm and angle 72°. [Higher]	Method: A sector is a fraction of a circle: angle ÷ 360 of the full area. | 72/360 × π × 100 = 20π ≈ 62.8 cm²
 Geometry & Measures: Volume of a prism and a cylinder.	Prism: area of cross-section × length | Cylinder: πr²h
-Geometry & Measures: A cylinder has radius 3 cm and height 10 cm. Find its volume and surface area.	Volume = π × 9 × 10 = 90π ≈ 282.7 cm³ | SA = 2πr² + 2πrh = 18π + 60π = 78π ≈ 245.0 cm²
+Geometry & Measures: A cylinder has radius 3 cm and height 10 cm. Find its volume and surface area.	Method: Volume: area of the circular end × height. Surface area: two circles plus the curved part, which unrolls into a rectangle (circumference × height). | Volume = π × 9 × 10 = 90π ≈ 282.7 cm³ | SA = 2πr² + 2πrh = 18π + 60π = 78π ≈ 245.0 cm²
 Geometry & Measures: Volume formulas for a cone, sphere and pyramid. [Higher]	Cone: ⅓πr²h | Sphere: 4/3 πr³ | Pyramid: ⅓ × base area × h | These are usually given in the question.
-Geometry & Measures: Find the volume of a sphere with radius 3 cm. [Higher]	4/3 × π × 27 = 36π ≈ 113.1 cm³
+Geometry & Measures: Find the volume of a sphere with radius 3 cm. [Higher]	Method: Substitute r = 3 into 4/3 πr³. Cube the radius before multiplying. | 4/3 × π × 27 = 36π ≈ 113.1 cm³
 Geometry & Measures: Describe the 4 transformations fully.	Rotation: angle, direction, centre. Reflection: equation of the mirror line. Translation: column vector. Enlargement: scale factor, centre.
 Geometry & Measures: What does an enlargement with scale factor ½ do?	Makes the shape half the size. Distances from the centre are halved.
 Geometry & Measures: What does a negative scale factor enlargement do? [Higher]	The image is on the opposite side of the centre and upside down.
 Geometry & Measures: 4 conditions for congruent triangles.	SSS, SAS, ASA (or AAS), RHS | AAA only proves similar, not congruent!
 Geometry & Measures: Loci and constructions: what does each give you?	Perpendicular bisector: points equidistant from two points. Angle bisector: equidistant from two lines. Fixed distance from a point: a circle.
-Geometry & Measures: How do you measure a bearing? Bearing of B from A is 070°. Find A from B.	From North, clockwise, 3 figures. | Back bearing: 070 + 180 = 250°
+Geometry & Measures: How do you measure a bearing? Bearing of B from A is 070°. Find A from B.	Method: Bearings are measured clockwise from North, in 3 figures. The back bearing faces the opposite way, so add 180° (or subtract if over 180°). | From North, clockwise, 3 figures. | Back bearing: 070 + 180 = 250°
 Geometry & Measures: What are plans and elevations?	Plan: view from above. Front elevation: view from the front. Side elevation: view from the side.
 Geometry & Measures: Circle theorems (part 1). [Higher]	Angle at the centre = 2 × angle at the circumference. Angle in a semicircle = 90°. Angles in the same segment are equal.
 Geometry & Measures: Circle theorems (part 2). [Higher]	Opposite angles in a cyclic quadrilateral add to 180°. Tangent meets radius at 90°. Two tangents from a point are equal. Alternate segment theorem.
-Geometry & Measures: a = (3, −1) and b = (2, 4) as column vectors. Find 2a + b	2a = (6, −2) | 2a + b = (8, 2)
-Geometry & Measures: How do you show two vectors are parallel? [Higher]	One is a multiple of the other. e.g. (2, 3) and (6, 9) are parallel because (6, 9) = 3 × (2, 3).
+Geometry & Measures: a = (3, −1) and b = (2, 4) as column vectors. Find 2a + b	Method: Multiply each part of the vector by the number, then add top to top and bottom to bottom. | 2a = (6, −2) | 2a + b = (8, 2)
+Geometry & Measures: How do you show two vectors are parallel? [Higher]	Method: Parallel vectors point the same way, so one is a number multiplied by the other. Check that the same number works for both parts. | One is a multiple of the other. e.g. (2, 3) and (6, 9) are parallel because (6, 9) = 3 × (2, 3).
 Geometry & Measures: Metric conversions to learn.	1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm | 1 kg = 1000 g, 1 tonne = 1000 kg | 1 litre = 1000 ml, 1 ml = 1 cm³
 Pythagoras & Trigonometry: Pythagoras' theorem.	a² + b² = c² | c is the hypotenuse (longest side, opposite the right angle).
-Pythagoras & Trigonometry: A right-angled triangle has shorter sides 6 cm and 8 cm. Find the hypotenuse.	6² + 8² = 36 + 64 = 100 | √100 = 10 cm
-Pythagoras & Trigonometry: Hypotenuse 13 cm, one side 5 cm. Find the other side.	Shorter side: subtract | 13² − 5² = 169 − 25 = 144 → 12 cm
-Pythagoras & Trigonometry: Find the distance between (1, 2) and (4, 6).	Pythagoras: √(3² + 4²) = √25 = 5
+Pythagoras & Trigonometry: A right-angled triangle has shorter sides 6 cm and 8 cm. Find the hypotenuse.	Method: The hypotenuse is the longest side, so add the squares of the two shorter sides, then square-root. | 6² + 8² = 36 + 64 = 100 | √100 = 10 cm
+Pythagoras & Trigonometry: Hypotenuse 13 cm, one side 5 cm. Find the other side.	Method: To find a shorter side, subtract: hypotenuse² minus the other side², then square-root. | Shorter side: subtract | 13² − 5² = 169 − 25 = 144 → 12 cm
+Pythagoras & Trigonometry: Find the distance between (1, 2) and (4, 6).	Method: Draw a right-angled triangle between the points: the horizontal and vertical differences are the two short sides. Use Pythagoras. | Pythagoras: √(3² + 4²) = √25 = 5
 Pythagoras & Trigonometry: SOHCAHTOA.	sin θ = O/H | cos θ = A/H | tan θ = O/A
-Pythagoras & Trigonometry: Hypotenuse 10 cm, angle 30°. Find the opposite side.	sin 30° = x/10 | x = 10 × sin 30° = 5 cm
-Pythagoras & Trigonometry: Opposite = 7 cm, adjacent = 7 cm. Find the angle.	tan θ = 7/7 = 1 | θ = tan⁻¹(1) = 45°
+Pythagoras & Trigonometry: Hypotenuse 10 cm, angle 30°. Find the opposite side.	Method: Label the sides from the angle. You know H and want O, so use SOH: sin = O ÷ H, then rearrange. | sin 30° = x/10 | x = 10 × sin 30° = 5 cm
+Pythagoras & Trigonometry: Opposite = 7 cm, adjacent = 7 cm. Find the angle.	Method: You know O and A, so use TOA. To find an angle, use the inverse (tan⁻¹) on your calculator. | tan θ = 7/7 = 1 | θ = tan⁻¹(1) = 45°
 Pythagoras & Trigonometry: Exact trig values for 30°, 45° and 60°.	sin 30 = ½, cos 30 = √3/2, tan 30 = √3/3 | sin 45 = cos 45 = √2/2, tan 45 = 1 | sin 60 = √3/2, cos 60 = ½, tan 60 = √3
 Pythagoras & Trigonometry: Exact values of sin, cos and tan of 0° and 90°.	sin 0 = 0, cos 0 = 1, tan 0 = 0 | sin 90 = 1, cos 90 = 0, tan 90 is undefined
 Pythagoras & Trigonometry: The sine rule and when to use it. [Higher]	a/sin A = b/sin B = c/sin C | Use with a side and its opposite angle (a matching pair).
 Pythagoras & Trigonometry: The cosine rule and when to use it. [Higher]	a² = b² + c² − 2bc cos A | Use with 3 sides, or 2 sides and the angle between them.
-Pythagoras & Trigonometry: b = 5 cm, c = 7 cm, angle A = 60°. Find a. [Higher]	a² = 25 + 49 − 2 × 5 × 7 × cos 60 = 39 | a = √39 = 6.24 cm
-Pythagoras & Trigonometry: Area of a triangle using sine. [Higher]	Area = ½ ab sin C | a = 8, b = 5, C = 30°: ½ × 8 × 5 × ½ = 10 cm²
-Pythagoras & Trigonometry: Find the space diagonal of a 3 cm × 4 cm × 12 cm cuboid. [Higher]	3D Pythagoras: √(3² + 4² + 12²) = √169 = 13 cm
+Pythagoras & Trigonometry: b = 5 cm, c = 7 cm, angle A = 60°. Find a. [Higher]	Method: Two sides and the angle between them, so use the cosine rule. Substitute carefully, then square-root at the end. | a² = 25 + 49 − 2 × 5 × 7 × cos 60 = 39 | a = √39 = 6.24 cm
+Pythagoras & Trigonometry: Area of a triangle using sine. [Higher]	Method: Use two sides and the angle BETWEEN them. Half the product of the sides, times the sine of that angle. | Area = ½ ab sin C | a = 8, b = 5, C = 30°: ½ × 8 × 5 × ½ = 10 cm²
+Pythagoras & Trigonometry: Find the space diagonal of a 3 cm × 4 cm × 12 cm cuboid. [Higher]	Method: Use Pythagoras in 3D: add the squares of all three edges, then square-root. | 3D Pythagoras: √(3² + 4² + 12²) = √169 = 13 cm
 Pythagoras & Trigonometry: Describe the graphs of y = sin x, cos x and tan x. [Higher]	sin and cos: waves between −1 and 1, repeat every 360°. sin starts at 0, cos starts at 1. tan repeats every 180°, with asymptotes at 90°, 270°…
 Probability: Probability rules: scale and 'not'.	Probabilities go from 0 (impossible) to 1 (certain). | P(not A) = 1 − P(A)
-Probability: A bag has 3 red and 5 blue balls. Find P(red) and P(not red).	P(red) = 3/8 | P(not red) = 5/8
-Probability: Probabilities in a table are 0.2, 0.35, x and 0.15. Find x.	They add to 1: 1 − 0.7 = 0.3
-Probability: P(win) = 0.2. How many wins would you expect in 150 games?	Expected frequency = P × trials | 0.2 × 150 = 30
-Probability: A coin lands heads 18 times in 50 throws. Find the relative frequency. How can you make it more reliable?	18 ÷ 50 = 0.36 | More trials = more reliable estimate.
+Probability: A bag has 3 red and 5 blue balls. Find P(red) and P(not red).	Method: Probability = number of ways it can happen ÷ total number of outcomes. 'Not' is 1 minus the probability. | P(red) = 3/8 | P(not red) = 5/8
+Probability: Probabilities in a table are 0.2, 0.35, x and 0.15. Find x.	Method: All the probabilities in the table add to 1. Add the ones you know and subtract from 1. | They add to 1: 1 − 0.7 = 0.3
+Probability: P(win) = 0.2. How many wins would you expect in 150 games?	Method: Expected number = probability × number of trials. | Expected frequency = P × trials | 0.2 × 150 = 30
+Probability: A coin lands heads 18 times in 50 throws. Find the relative frequency. How can you make it more reliable?	Method: Relative frequency = times it happened ÷ total trials. The more trials, the closer it gets to the true probability. | 18 ÷ 50 = 0.36 | More trials = more reliable estimate.
 Probability: AND vs OR rules.	Mutually exclusive (OR): P(A or B) = P(A) + P(B) | Independent (AND): P(A and B) = P(A) × P(B)
-Probability: Two fair dice are rolled. Find P(both show 6).	Independent, so multiply: 1/6 × 1/6 = 1/36
-Probability: P(rain) = 0.3 each day. Find P(exactly one rainy day in two days).	Tree: RN or NR | 0.3 × 0.7 + 0.7 × 0.3 = 0.42
-Probability: A bag has 3 red and 5 blue. Two are taken without replacement. Find P(both red). [Higher]	3/8 × 2/7 = 6/56 = 3/28 | Without replacement: the second fraction changes.
-Probability: List all outcomes of flipping two coins. Find P(one head and one tail).	HH, HT, TH, TT | P = 2/4 = 1/2
+Probability: Two fair dice are rolled. Find P(both show 6).	Method: The dice do not affect each other (independent), so for 'and' you multiply the probabilities. | Independent, so multiply: 1/6 × 1/6 = 1/36
+Probability: P(rain) = 0.3 each day. Find P(exactly one rainy day in two days).	Method: List the ways it can happen (rain then no rain, or no rain then rain). Multiply along each branch, then add the branches. | Tree: RN or NR | 0.3 × 0.7 + 0.7 × 0.3 = 0.42
+Probability: A bag has 3 red and 5 blue. Two are taken without replacement. Find P(both red). [Higher]	Method: Without replacement, one fewer ball is left and one fewer red, so the second fraction changes. Multiply along the branch. | 3/8 × 2/7 = 6/56 = 3/28 | Without replacement: the second fraction changes.
+Probability: List all outcomes of flipping two coins. Find P(one head and one tail).	Method: List every outcome systematically so none are missed, then count the ones you want. | HH, HT, TH, TT | P = 2/4 = 1/2
 Probability: Venn diagram symbols: ξ, ∪, ∩ and A′	ξ = universal set (everything). A ∪ B = A or B (union). A ∩ B = A and B (intersection). A′ = not A.
-Probability: 30 students: 18 play football, 12 play tennis, 5 play both. Find P(neither).	Football only 13, tennis only 7, both 5 → 25 | Neither = 5 → 5/30 = 1/6
-Probability: Same group: given a student plays football, find P(they play tennis). [Higher]	Conditional: only look at the 18 footballers | 5 of them play tennis → 5/18
-Statistics: Find the mean, median, mode and range of 3, 7, 7, 9, 14	Mean = 40 ÷ 5 = 8 | Median = 7, Mode = 7 | Range = 14 − 3 = 11
-Statistics: Goals scored: 0 (4 games), 1 (6), 2 (5), 3 (5). Find the mean.	Σfx ÷ Σf = (0 + 6 + 10 + 15) ÷ 20 = 1.55
+Probability: 30 students: 18 play football, 12 play tennis, 5 play both. Find P(neither).	Method: Fill the Venn diagram from the middle: put 'both' in first, subtract it to get 'only' each, then subtract everything from the total for 'neither'. | Football only 13, tennis only 7, both 5 → 25 | Neither = 5 → 5/30 = 1/6
+Probability: Same group: given a student plays football, find P(they play tennis). [Higher]	Method: 'Given' means you only look at that group. The 18 footballers become the new total. | Conditional: only look at the 18 footballers | 5 of them play tennis → 5/18
+Statistics: Find the mean, median, mode and range of 3, 7, 7, 9, 14	Method: Mean: add and divide by how many. Median: the middle value in order. Mode: the most common. Range: biggest minus smallest. | Mean = 40 ÷ 5 = 8 | Median = 7, Mode = 7 | Range = 14 − 3 = 11
+Statistics: Goals scored: 0 (4 games), 1 (6), 2 (5), 3 (5). Find the mean.	Method: Multiply each value by its frequency and add (Σfx), then divide by the total frequency (Σf). | Σfx ÷ Σf = (0 + 6 + 10 + 15) ÷ 20 = 1.55
 Statistics: How do you estimate the mean from grouped data? Why is it an estimate?	Use the midpoint of each class × frequency, add, then divide by the total. It's an estimate because we don't know the exact values.
 Statistics: Which average should you use if there's an outlier?	The median. The mean is affected by extreme values.
 Statistics: Discrete vs continuous data? Qualitative vs quantitative?	Discrete: counted, exact values (shoe size). Continuous: measured (height). Qualitative: words (colour). Quantitative: numbers.
-Statistics: 15 out of 60 people chose pizza. What angle is that on a pie chart?	360 ÷ 60 = 6° per person | 15 × 6 = 90°
+Statistics: 15 out of 60 people chose pizza. What angle is that on a pie chart?	Method: The whole pie is 360°, so find the angle for one person (360 ÷ total), then multiply. | 360 ÷ 60 = 6° per person | 15 × 6 = 90°
 Statistics: Types of correlation. Does correlation prove causation?	Positive (both increase), negative (one up, one down), none. No: correlation doesn't prove one thing causes the other.
 Statistics: Interpolation vs extrapolation?	Interpolation: estimating inside the data range (reliable). Extrapolation: outside the range (less reliable).
 Statistics: How do you avoid bias in a sample?	Use a random sample, make it large enough, and make sure it represents the whole population.
 Statistics: How do you compare two distributions?	Compare an average (median or mean) AND a measure of spread (range or IQR), in the context of the question.
 Statistics: Where do you plot points on a frequency polygon?	At the midpoint of each class, then join with straight lines.
-Statistics: A school has 600 students, 150 in Year 11. A stratified sample of 80 is taken. How many from Year 11? [Higher]	150/600 × 80 = 20
+Statistics: A school has 600 students, 150 in Year 11. A stratified sample of 80 is taken. How many from Year 11? [Higher]	Method: The sample keeps the same proportions as the population: Year 11's fraction of the school × the sample size. | 150/600 × 80 = 20
 Statistics: Cumulative frequency: how do you find the median and IQR? [Higher]	Median: read across at n/2. LQ at n/4, UQ at 3n/4. | IQR = UQ − LQ
 Statistics: What 5 values does a box plot show? [Higher]	Minimum, lower quartile, median, upper quartile and maximum.
-Statistics: Histograms: frequency density formula. [Higher]	Frequency density = frequency ÷ class width | 30 people in 10 < x ≤ 25: 30 ÷ 15 = 2
-Statistics: 40 fish are marked and released. Later 50 are caught; 8 are marked. Estimate the population. [Higher]	Capture–recapture: 40 × 50 ÷ 8 = 250 fish
+Statistics: Histograms: frequency density formula. [Higher]	Method: Divide the frequency by the class width (the upper bound minus the lower bound). | Frequency density = frequency ÷ class width | 30 people in 10 < x ≤ 25: 30 ÷ 15 = 2
+Statistics: 40 fish are marked and released. Later 50 are caught; 8 are marked. Estimate the population. [Higher]	Method: Assume the proportion marked in the second catch matches the whole population: marked ÷ population = marked caught ÷ caught. Rearrange. | Capture–recapture: 40 × 50 ÷ 8 = 250 fish
 Exam Skills: Which formulas do you need to memorise?	Almost all of them: areas, circles, Pythagoras, SOHCAHTOA, sine and cosine rules, quadratic formula, compound interest, prism volumes. Cone, sphere and pyramid formulas are given in the question.
 Exam Skills: What does 'give your answer in terms of π' mean?	Leave π in your answer, e.g. 36π. Don't multiply it out.
 Exam Skills: What does 'show that' mean?	Write every step clearly. The answer is given, so the marks are for your working.
